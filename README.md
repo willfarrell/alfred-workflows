@@ -14,7 +14,10 @@ Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-updat
 ### Dash (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Dash.alfredworkflow)]
 [Dash](http://kapeli.com/) comes with default Alfred 2 Workflow. This is an extension to that by shortening the keyword filters for each language. In addition to being able to lookup documentation faster.
 
-**Commands Included:** dash (default), html, css, js, jquery, angularjs, bootstrap, svg, nodejs, php, redis, mysql, cpp
+**Commands Included:** `dash {query}` (default), `html {query}`, `css {query}`, `js {query}`, `jquery {query}`, `angularjs {query}`, `bootstrap {query}`, `svg {query}`, `nodejs {query}`, `php {query}`, `redis {query}`, `mysql {query}`, `cpp {query}`
+
+### Encode/Decode (1.0) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/encode-decode.alfredworkflow)]
+Using the keywords `encode {query}` or `decode {query}`, strings will be transformed through html and url encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
 ### Package Managers (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
 Quick package/plugin/component lookup of for your favourite package managers. 
