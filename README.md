@@ -16,6 +16,7 @@ Quick package/plugin/component lookup of for your favourite package managers.
 ### node.js
 - npm {query}
 - grunt {query}
+Note: for grunt the list of plugins is cached and automatically refreshed every two weeks.
 
 ### PHP
 - composer {query} (web only)
