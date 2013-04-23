@@ -32,7 +32,7 @@ if ($query) {
 }
 
 if ( count( $w->results() ) == 0 ) {
-	$w->result( 'bower', 'na', 'No Repository found', 'No packages were found that match your query', 'bower.png', 'no' );
+	$w->result( 'npm', 'na', 'No Repository found', 'No packages were found that match your query', 'npm.png', 'no' );
 }
 
 echo $w->toxml();

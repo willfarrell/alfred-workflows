@@ -8,27 +8,21 @@ $query = "contrib";
 require_once('workflows.php');
 
 $w = new Workflows();
-//$query = urlencode( "{query}" );
+$query = urlencode( "{query}" );
 
 // cache package database
-$cache_timestamp = 0;
-try {
-	$cache_timestamp = $w->get( 'grunt.timestamp', 'settings.plist' );
-} catch(Exception $e) {}
-
-
-if (!$cache_timestamp || $cache_timestamp < (time() - 14 * 86400)) {
+$plugins = $w->read('grunt.json');
+$timestamp = $w->filetime('grunt.json');
+if ( !$plugins || ($timestamp && $timestamp < (time() - 14 * 86400)) ) {
 	$url = "http://gruntjs.com/plugin-list";
 	$pluginlist = $w->request( $url );
 	
 	$w->write($pluginlist, 'grunt.json');
 	$plugins = json_decode( $pluginlist );
-	
-	$w->set( 'grunt.timestamp', time(), 'settings.plist' );
-} else {
-	$plugins = $w->read('grunt.json');
+	$w->result( 'grunt-update', 'na', 'Grunt Updated', 'The cache for Grunt has been updated', 'grunt.png', 'no' );
 }
 
+//$count = 5;
 foreach($plugins as $plugin ) {
 	// search for keyword
 	$found = false;
@@ -48,13 +42,14 @@ foreach($plugins as $plugin ) {
 	if ($found) {
 		//print_r($plugin);
 		$title = str_replace('grunt-', '', $plugin->name); // remove grunt- from title
-		
+	
 		// add author to title
 		if (isset($plugin->author) && isset($plugin->author->name)) {
 			$title .= " by " . $plugin->author->name;
 		}
 		$w->result( $plugin->name, $plugin->github, $title, $plugin->description, 'grunt.png' );
 	}
+	//if (!--$count) { break; }
 }
 
 if ( count( $w->results() ) == 0 ) {
