@@ -7,7 +7,7 @@ Shorter keywords for using [dash](http://kapeli.com/) lookups. Custom logo for e
 
 **Commands Included:** dash, html, css, js, jquery, angularjs, bootstrap, svg, nodejs, php, redis, mysql, cpp
 
-## Package Managers (1.0)
+## Package Managers (1.1)
 Quick package/plugin/component lookup of for your favourite package managers. 
 
 ### JS / CSS / HTML
