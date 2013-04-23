@@ -19,27 +19,24 @@ Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-updat
 ### Package Managers (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
 Quick package/plugin/component lookup of for your favourite package managers. 
 
-#### JS / CSS / HTML
 `bower {query}` 
 
 ![alt text][bower]
 
-#### node.js
 `npm {query}`
 
 ![alt text][npm]
 
-`grunt {query}` Note: for grunt the list of plugins is cached and automatically refreshed every two weeks.
+`grunt {query}` Note: The list of plugins is cached and automatically refreshed every two weeks.
 
 ![alt text][grunt]
 
-#### PHP
 `composer {query}` Currently forwards to the web search.
 
-#### Unix
 `brew {query}` Currently forwards to the web search.
 
 `brew-php {query}` Currently forwards to a list.
+
 `rpm {query}` Currently forward to the web search.
 
 ### StackOverflow (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/StackOverflow.alfredworkflow)]
