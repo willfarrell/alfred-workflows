@@ -2,12 +2,13 @@
 
 ***
 
-## Dash
+## Dash (1.0)
 Shorter keywords for using [dash](http://kapeli.com/) lookups. Custom logo for each language included.
 
 **Commands Included:** dash, html, css, js, jquery, angularjs, bootstrap, svg, nodejs, php, redis, mysql, cpp
 
-## Package Managers
+## Package Managers (1.0)
+Quick package/plugin/component lookup of for your favourite package managers. 
 
 ### JS / CSS / HTML
 - bower {query}
