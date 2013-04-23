@@ -40,6 +40,6 @@ Author: [@xhinking](https://github.com/tzarskyz/Alfred-1)
 Looking for one that includes secure authentication to allow for 5000 request/hour.
 
 
-[bower]: https://raw.github.com/willfarrell/alfredworkflow/master/Screenshots/bower.png  "Sample bower result"
-[grunt]: https://raw.github.com/willfarrell/alfredworkflow/master/Screenshots/grunt.png "Sample grunt result"
-[npm]: https://raw.github.com/willfarrell/alfredworkflow/master/Screenshots/npm.png "Sample npm result"
+[bower]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/bower.png  "Sample bower result"
+[grunt]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/grunt.png "Sample grunt result"
+[npm]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/npm.png "Sample npm result"
