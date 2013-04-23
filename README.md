@@ -1,4 +1,4 @@
-# Alfred Workflows
+# Alfred Workflows for Developers
 
 ***
 
@@ -34,8 +34,6 @@ Quick package/plugin/component lookup of for your favourite package managers.
 `composer {query}` Currently forwards to the web search.
 
 `brew {query}` Currently forwards to the web search.
-
-`brew-php {query}` Currently forwards to a list.
 
 `rpm {query}` Currently forward to the web search.
 
