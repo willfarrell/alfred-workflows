@@ -24,3 +24,9 @@ Quick package/plugin/component lookup of for your favourite package managers.
 - brew {query} (web only)
 - brew-php {query} (web lookup)
 - rpm {query} (web only)
+
+## StackOverflow (1.1)
+Author: (xhinking)[https://github.com/tzarskyz/Alfred-1]
+
+## Github (0.0)
+Looking for one that includes secure authentication to allow for 5000 request/hour.
