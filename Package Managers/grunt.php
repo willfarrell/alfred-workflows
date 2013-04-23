@@ -47,13 +47,14 @@ foreach($plugins as $plugin ) {
 		if (isset($plugin->author) && isset($plugin->author->name)) {
 			$title .= " by " . $plugin->author->name;
 		}
-		$w->result( $plugin->name, $plugin->github, $title, $plugin->description, 'grunt.png' );
+		$url = str_replace("git://", "https://", $plugin->github);
+		$w->result( $plugin->name, $url, $title, $plugin->description, 'grunt.png' );
 	}
 	//if (!--$count) { break; }
 }
 
 if ( count( $w->results() ) == 0 ) {
-	$w->result( 'grunt', 'na', 'No Repository found', 'No plugins were found that match your query', 'grunt.png', 'no' );
+	$w->result( 'grunt', 'http://gruntjs.com/plugins/'.$query, 'No Repository found', 'No plugins were found that match your query', 'grunt.png', 'yes' );
 }
 
 echo $w->toxml();

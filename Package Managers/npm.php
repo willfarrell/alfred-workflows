@@ -32,7 +32,7 @@ if ($query) {
 }
 
 if ( count( $w->results() ) == 0 ) {
-	$w->result( 'npm', 'na', 'No Repository found', 'No packages were found that match your query', 'npm.png', 'no' );
+	$w->result( 'npm', 'https://npmjs.org/search?q='.$query, 'No Repository found', 'No packages were found that match your query', 'npm.png', 'yes' );
 }
 
 echo $w->toxml();

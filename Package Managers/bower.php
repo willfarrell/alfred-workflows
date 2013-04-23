@@ -17,14 +17,14 @@ if ($query) {
 	$items = json_decode( $list );
 	
 	foreach($items as $item ) {
-		
-		$w->result( $item->url, $item->url, $item->name, $item->url, 'bower.png' );
+		$url = str_replace("git://", "https://", $item->url);
+		$w->result( $item->url, $url, $item->name, $url, 'bower.png' );
 	}
 }
 
 
 if ( count( $w->results() ) == 0 ) {
-	$w->result( 'bower', 'na', 'No Repository found', 'No components were found that match your query', 'bower.png', 'no' );
+	$w->result( 'bower', 'http://sindresorhus.com/bower-components/#!/search/'.$query, 'No Repository found', 'No components were found that match your query', 'bower.png', 'yes' );
 }
 
 echo $w->toxml();
