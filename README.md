@@ -20,25 +20,25 @@ Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-updat
 Using the keywords `encode {query}` or `decode {query}`, will transform your query strings through html and url encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
 ### Package Managers (1.2) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
-Quick package/plugin/component lookup of for your favourite package managers. 
+Quick package/plugin/component (repo) lookup of for your favourite package managers. All workflows require constant internet connection. Some repos cache their database (`grunt`, `alcatraz`), these databases are refreshed after 14 days.
 
-js, css, html: `bower {query}` 
+**js, css, html:** `bower {query}` 
 
 ![alt text][bower]
 
-node.js: `npm {query}`
+**node.js:** `npm {query}`
 
 ![alt text][npm]
 
-node.js task runner: `grunt {query}` Note: The list of plugins is cached and automatically refreshed every two weeks.
+**node.js task runner:** `grunt {query}`
 
 ![alt text][grunt]
 
-XCode: `alcatraz {query}`
+**XCode:** `alcatraz {query}`
 
-PHP: `composer {query}` Currently forwards to the web search.
+**PHP:** `composer {query}` Currently forwards to the web search.
 
-Mac Unix: `brew {query}` Currently forwards to the web search.
+**Mac Unix:** `brew {query}` Currently forwards to the web search.
 
 ### StackOverflow (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/StackOverflow.alfredworkflow)]
 Author: [@xhinking](https://github.com/tzarskyz/Alfred-1)
