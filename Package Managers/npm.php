@@ -14,11 +14,9 @@ $query = urlencode( "{query}" );
 
 if ($query) {
 	$data = $w->request('https://npmjs.org/search?q='.$query);
+	preg_match_all('/<li class="search-result package">([\s\S]*?)<\/ul>/i', $data, $matches);
 	
-	$items = explode('<li class="search-result package">', $data);
-	array_shift($items);
-	
-	foreach($items as $item) {
+	foreach($matches[1] as $item) {
 		preg_match('/<h2>(.*?)<\/h2>/i', $item, $matches);
 		$title = strip_tags($matches[1]);
 		

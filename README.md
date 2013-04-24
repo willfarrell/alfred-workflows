@@ -43,9 +43,13 @@ Quick package/plugin/component (repo) lookup of for your favourite package manag
 ![alt text][composer]
 ![alt text][pear]
 
-**Mac Unix:** `brew {query}` (aka *homebrew*)
+**Mac OS X:** `brew {query}` (aka *homebrew*)
 
 ![alt text][brew]
+
+**Linux:** `rpm {query}`
+
+![alt text][rpm]
 
 ### StackOverflow (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/StackOverflow.alfredworkflow)]
 Author: [@xhinking](https://github.com/tzarskyz/Alfred-1)
@@ -68,4 +72,5 @@ Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICE
 [grunt]: ./Screenshots/grunt.png "Sample grunt result"
 [npm]: ./Screenshots/npm.png "Sample npm result"
 [pear]: ./Screenshots/pear.png "Sample pear result"
+[rpm]: ./Screenshots/rpm.png "Sample rpm result"
 [st]: ./Screenshots/st.png "Sample StackOverflow result"
