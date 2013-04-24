@@ -3,7 +3,7 @@
 //header ("Content-Type:text/xml");
 //syslog(LOG_ERR, "message to send to log");
 
-$query = "[] > "; // URL, 
+$query = "ap";
 
 // ****************
 
