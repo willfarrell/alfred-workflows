@@ -36,9 +36,16 @@ Quick package/plugin/component (repo) lookup of for your favourite package manag
 
 **XCode:** `alcatraz {query}`
 
+![alt text][alcatraz]
+
 **PHP:** `composer {query}`, `pear {query}`
 
+![alt text][composer]
+![alt text][pear]
+
 **Mac Unix:** `brew {query}` (aka *homebrew*)
+
+![alt text][brew]
 
 ### StackOverflow (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/StackOverflow.alfredworkflow)]
 Author: [@xhinking](https://github.com/tzarskyz/Alfred-1)
@@ -53,8 +60,12 @@ Looking for one that includes secure authentication to allow for 5000 request/ho
 ## License
 Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) / [MIT](http://opensource.org/licenses/MIT) / [GNU General Public License v2.0](http://www.gnu.org/licenses/gpl-2.0.html).
 
+
+[alcatraz]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/alcatraz.png  "Sample alcatraz result"
 [bower]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/bower.png  "Sample bower result"
+[brew]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/brew.png  "Sample brew result"
+[composer]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/composer.png  "Sample composer result"
 [grunt]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/grunt.png "Sample grunt result"
 [npm]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/npm.png "Sample npm result"
-
+[pear]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/pear.png "Sample pear result"
 [st]: https://raw.github.com/willfarrell/alfred-workflows/master/Screenshots/st.png "Sample StackOverflow result"
