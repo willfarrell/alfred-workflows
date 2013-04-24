@@ -19,7 +19,7 @@ Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-updat
 ### Encode/Decode (1.0) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/encode-decode.alfredworkflow)]
 Using the keywords `encode {query}` or `decode {query}`, will transform your query strings through html and url encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
-### Package Managers (1.2) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
+### Package Managers (1.3) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
 Quick package/plugin/component (repo) lookup of for your favourite package managers. All workflows require constant internet connection. Some repos cache their database (`grunt`, `alcatraz`), these databases are refreshed after 14 days.
 
 **js, css, html:** `bower {query}` 
@@ -36,9 +36,9 @@ Quick package/plugin/component (repo) lookup of for your favourite package manag
 
 **XCode:** `alcatraz {query}`
 
-**PHP:** `composer {query}`
+**PHP:** `composer {query}`, `pear {query}`
 
-**Mac Unix:** `brew {query}`
+**Mac Unix:** `brew {query}` (aka *homebrew*)
 
 ### StackOverflow (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/StackOverflow.alfredworkflow)]
 Author: [@xhinking](https://github.com/tzarskyz/Alfred-1)
