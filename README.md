@@ -19,6 +19,8 @@ If you have a workflow that you think other developers would really love, let me
 
 **Commands Included:** `dash {query}` (default), `html {query}`, `css {query}`, `js {query}`, `jquery {query}`, `angularjs {query}`, `bootstrap {query}`, `svg {query}`, `nodejs {query}`, `php {query}`, `redis {query}`, `mysql {query}`, `cpp {query}`
 
+![alt text][dash]
+
 ### Encode/Decode (1.0) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/encode-decode.alfredworkflow)]
 Using the keywords `encode {query}` or `decode {query}`, will transform your query strings through html and url encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
@@ -70,6 +72,7 @@ Looking for one that includes secure authentication to allow for 5000 request/ho
 ## License
 Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) / [MIT](http://opensource.org/licenses/MIT) / [GNU General Public License v2.0](http://www.gnu.org/licenses/gpl-2.0.html).
 
+[dash]: ./Screenshots/dash.png  "Sample dash result"
 
 [alcatraz]: ./Screenshots/alcatraz.png  "Sample alcatraz result"
 [bower]: ./Screenshots/bower.png  "Sample bower result"
