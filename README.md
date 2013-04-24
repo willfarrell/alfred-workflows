@@ -8,7 +8,7 @@
 3. Review the workflow to add custom Hotkeys
 
 ## Updating
-Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) using the keyword `oop`.
+Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) using the keyword `oop`. If you're not comfortable with Alleyoop, star this repo to keep up to date on new versions.
 
 ## Contributing
 If you have a workflow that you think other developers would really love, let me know and I'll add it to the Mentions section. There are many package manager floating around, if you use one I have included, let me know or submit a pull request.
@@ -42,6 +42,7 @@ Quick package/plugin/component (repo) lookup of for your favourite package manag
 CocoaPods can be upgraded to CocoaDocs by changing `$apple_docs` to true in the script.
 
 ![alt text][alcatraz]
+![alt text][cocoa]
 
 **PHP:** `composer {query}`, `pear {query}`
 
