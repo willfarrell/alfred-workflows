@@ -38,7 +38,7 @@ Quick package/plugin/component (repo) lookup of for your favourite package manag
 
 **PHP:** `composer {query}`
 
-**Mac Unix:** `brew {query}` Currently forwards to the web search.
+**Mac Unix:** `brew {query}`
 
 ### StackOverflow (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/StackOverflow.alfredworkflow)]
 Author: [@xhinking](https://github.com/tzarskyz/Alfred-1)
