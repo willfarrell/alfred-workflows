@@ -22,8 +22,8 @@ If you have a workflow that you think other developers would really love, let me
 ### Encode/Decode (1.0) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/encode-decode.alfredworkflow)]
 Using the keywords `encode {query}` or `decode {query}`, will transform your query strings through html and url encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
-### Package Managers (1.3) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
-Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `Homebrew`, `Composer`, `Grunt`, `npm`, `pear`, and `rpm`. All workflows require constant internet connection. Some repos cache their database (`grunt`, `alcatraz`), these databases are refreshed  after 14 days.
+### Package Managers (1.4) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
+Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaPods`, `Composer`, `Grunt`, `Homebrew`, `npm`, `pear`, and `rpm`. All workflows require constant internet connection. Some repos cache their database (`alcatraz`, `grunt`, `cocoa`), these databases are refreshed  after 14 days and may take longer then expected to return results during update.
 
 **js, css, html:** `bower {query}` 
 
@@ -37,7 +37,9 @@ Quick package/plugin/component (repo) lookup of for your favourite package manag
 
 ![alt text][grunt]
 
-**XCode:** `alcatraz {query}`
+**XCode:** `alcatraz {query}`, `cocoa {query}`
+
+CocoaPods can be upgraded to CocoaDocs by changing `$apple_docs` to true in the script.
 
 ![alt text][alcatraz]
 
@@ -71,6 +73,7 @@ Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICE
 [alcatraz]: ./Screenshots/alcatraz.png  "Sample alcatraz result"
 [bower]: ./Screenshots/bower.png  "Sample bower result"
 [brew]: ./Screenshots/brew.png  "Sample brew result"
+[cocoa]: ./Screenshots/cocoa.png  "Sample cocoa result"
 [composer]: ./Screenshots/composer.png  "Sample composer result"
 [grunt]: ./Screenshots/grunt.png "Sample grunt result"
 [npm]: ./Screenshots/npm.png "Sample npm result"
