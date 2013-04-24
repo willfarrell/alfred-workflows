@@ -7,6 +7,21 @@ $query = "contrib";
 
 require_once('workflows.php');
 
+function search($plugin, $query) {
+	if (strpos($plugin->name, $query) !== false) {
+		return true;
+	} else if (strpos($plugin->description, $query) !== false) {
+		return true;
+	} else {
+		foreach($plugin->keywords as $keyword) {
+			if (strpos($keyword, $query) !== false) {
+				return true;
+			}
+		}
+	}
+	return false;
+}
+
 $w = new Workflows();
 $query = urlencode( "{query}" );
 
@@ -22,25 +37,12 @@ if ( !$plugins || ($timestamp && $timestamp < (time() - 14 * 86400)) ) {
 	$w->result( 'grunt-update', 'na', 'Grunt Updated', 'The cache for Grunt has been updated', 'grunt.png', 'no' );
 }
 
-//$count = 5;
 foreach($plugins as $plugin ) {
 	// search for keyword
 	$found = false;
-	if (strpos($plugin->name, $query) !== false) {
-		$found = true;
-	} else if (strpos($plugin->description, $query) !== false) {
-		$found = true;
-	} else {
-		foreach($plugin->keywords as $keyword) {
-			if (strpos($keyword, $query) !== false) {
-				$found = true;
-				break;
-			}
-		}
-	}
 	
-	if ($found) {
-		//print_r($plugin);
+	
+	if (search($plugin,  $query)) {
 		$title = str_replace('grunt-', '', $plugin->name); // remove grunt- from title
 	
 		// add author to title
