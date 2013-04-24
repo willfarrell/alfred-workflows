@@ -36,7 +36,7 @@ Quick package/plugin/component (repo) lookup of for your favourite package manag
 
 **XCode:** `alcatraz {query}`
 
-**PHP:** `composer {query}` Currently forwards to the web search.
+**PHP:** `composer {query}`
 
 **Mac Unix:** `brew {query}` Currently forwards to the web search.
 
