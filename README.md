@@ -63,7 +63,7 @@ CocoaPods can be upgraded to CocoaDocs by changing `$apple_docs` to true in the 
 
 `st {query}`
 
-![alt text][rpm]
+![alt text][st]
 
 ### [Jenkins](https://github.com/jeroenseegers/alfred-jenkins-workflow) (1.0) [[Download](https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/Jenkins.alfredworkflow)] 
 
