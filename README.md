@@ -20,7 +20,7 @@ Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-updat
 Using the keywords `encode {query}` or `decode {query}`, will transform your query strings through html and url encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
 ### Package Managers (1.3) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
-Quick package/plugin/component (repo) lookup of for your favourite package managers. All workflows require constant internet connection. Some repos cache their database (`grunt`, `alcatraz`), these databases are refreshed after 14 days.
+Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `Homebrew`, `Composer`, `Grunt`, `npm`, `pear`, and `rpm`. All workflows require constant internet connection. Some repos cache their database (`grunt`, `alcatraz`), these databases are refreshed  after 14 days.
 
 **js, css, html:** `bower {query}` 
 
