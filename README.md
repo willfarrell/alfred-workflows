@@ -71,7 +71,7 @@ CocoaPods can be upgraded to CocoaDocs by changing `$apple_docs` to true in the 
 
 ![alt text][jenkins]
 
-### [Kill Process](https://github.com/jeroenseegers/alfred-jenkins-workflow) (1.0)  [[Download](https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/Jenkins.alfredworkflow)] 
+### [Kill Process](https://github.com/nathangreenstein/alfred-process-killer) (1.0)  [[Download](https://github.com/nathangreenstein/alfred-process-killer/raw/master/Kill%20Process.alfredworkflow)] 
 
 `kill {query}`
 
