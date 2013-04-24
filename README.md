@@ -23,7 +23,7 @@ If you have a workflow that you think other developers would really love, let me
 Using the keywords `encode {query}` or `decode {query}`, will transform your query strings through html and url encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
 ### Package Managers (1.4) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
-Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaPods`, `Composer`, `Grunt`, `Homebrew`, `npm`, `pear`, and `rpm`. All workflows require constant internet connection. Some repos cache their database (`alcatraz`, `grunt`, `cocoa`), these databases are refreshed  after 14 days and may take longer then expected to return results during update.
+Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `Grunt`, `Homebrew`, `npm`, `pear`, and `rpm`. All workflows require constant internet connection. Some repos cache their database (`alcatraz`, `grunt`, `cocoa`), these databases are refreshed  after 14 days and may take longer then expected to return results during update.
 
 **js, css, html:** `bower {query}` 
 
