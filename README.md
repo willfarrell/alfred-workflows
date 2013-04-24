@@ -59,15 +59,26 @@ CocoaPods can be upgraded to CocoaDocs by changing `$apple_docs` to true in the 
 
 ![alt text][rpm]
 
-### StackOverflow (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/StackOverflow.alfredworkflow)]
-Author: [@xhinking](https://github.com/tzarskyz/Alfred-1)
+### [StackOverflow](https://github.com/tzarskyz/Alfred-1) (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/StackOverflow.alfredworkflow)]
+
+`st {query}`
+
+![alt text][rpm]
+
+### [Jenkins](https://github.com/jeroenseegers/alfred-jenkins-workflow) (1.0) [[Download](https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/Jenkins.alfredworkflow)] 
+
+`jenkins {query}`
+
+![alt text][jenkins]
+
+### [Kill Process](https://github.com/jeroenseegers/alfred-jenkins-workflow) (1.0)  [[Download](https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/Jenkins.alfredworkflow)] 
+
+`kill {query}`
+
+![alt text][kill]
 
 ### Github (0.0)
 Looking for one that includes secure authentication to allow for 5000 request/hour.
-
-## Other Notable Mentions
-- [Jenkins](https://github.com/jeroenseegers/alfred-jenkins-workflow)
-- [Kill Process](https://github.com/nathangreenstein/alfred-process-killer)
 
 ## License
 Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) / [MIT](http://opensource.org/licenses/MIT) / [GNU General Public License v2.0](http://www.gnu.org/licenses/gpl-2.0.html).
@@ -83,4 +94,9 @@ Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICE
 [npm]: ./Screenshots/npm.png "Sample npm result"
 [pear]: ./Screenshots/pear.png "Sample pear result"
 [rpm]: ./Screenshots/rpm.png "Sample rpm result"
+
 [st]: ./Screenshots/st.png "Sample StackOverflow result"
+
+[jenkins]: https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/alfred-jenkins-workflow-screenshot.png "Sample jenkins result"
+
+[kill]: https://github.com/nathangreenstein/alfred-process-killer/raw/master/screenshot.png "Sample kill result"
