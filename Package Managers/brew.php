@@ -28,12 +28,12 @@ if ($query) {
 		preg_match('/Homepage: <a(.*?)>(.*?)<\/a>/i', $item, $matches);
 		$details = strip_tags($matches[2]);
 		
-		$w->result( $title, 'http://braumeister.org/formula/'.$title, $title.' ~ '.$version, $details, 'terminal.png' );
+		$w->result( $title, 'http://braumeister.org/formula/'.$title, $title.' ~ '.$version, $details, 'brew.png' );
 	}
 }
 
 if ( count( $w->results() ) == 0 ) {
-	$w->result( 'homebrew', 'http://braumeister.org/search/'.$query, 'No Repository found', 'No packages were found that match your query', 'terminal.png', 'yes' );
+	$w->result( 'homebrew', 'http://braumeister.org/search/'.$query, 'No Repository found', 'No packages were found that match your query', 'brew.png', 'yes' );
 }
 
 echo $w->toxml();
