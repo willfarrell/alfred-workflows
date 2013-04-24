@@ -10,6 +10,9 @@
 ## Updating
 Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) using the keyword `oop`.
 
+## Contributing
+If you have a workflow that you think other developers would really love, let me know and I'll add it to the Mentions section. There are many package manager floating around, if you use one I have included, let me know or submit a pull request.
+
 ## Workflows
 ### Dash (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Dash.alfredworkflow)]
 [Dash](http://kapeli.com/) comes with default Alfred 2 Workflow. This is an extension to that by shortening the keyword filters for each language. In addition to being able to lookup documentation faster.
