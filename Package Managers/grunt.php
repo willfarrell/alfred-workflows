@@ -37,6 +37,7 @@ if ( !$plugins || ($timestamp && $timestamp < (time() - 14 * 86400)) ) {
 	$w->result( 'grunt-update', 'na', 'Grunt Updated', 'The cache for Grunt has been updated', 'grunt.png', 'no' );
 }
 
+
 foreach($plugins as $plugin ) {
 	if (search($plugin,  $query)) {
 		$title = str_replace('grunt-', '', $plugin->name); // remove grunt- from title
@@ -46,6 +47,8 @@ foreach($plugins as $plugin ) {
 			$title .= " by " . $plugin->author->name;
 		}
 		$url = str_replace("git://", "https://", $plugin->github);
+		
+		//if (strpos($plugin->description, "DEPRECATED") !== false) { continue; } // skip DEPRECATED repos
 		$w->result( $plugin->name, $url, $title, $plugin->description, 'grunt.png' );
 	}
 }
