@@ -2,6 +2,9 @@
 First off, thanks for you interest in contributing. Everyone who uses this repos really appreciates it.
 
 ## Issues
+### Suggest a Workflow
+Found or developed a workflow you think other developers will like? Provide a link to it's github page or Submit a Pull Request with a modified README.md.
+
 ### Package Managers
 If you're requesting a new repository be included, please include links to:
 

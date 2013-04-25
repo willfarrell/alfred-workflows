@@ -81,7 +81,7 @@ Work just like the Dash Workflow, but requires a constant internet connection. A
 
 ![alt text][kill]
 
-### Encode/Decode (1.0) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/encode-decode.alfredworkflow)]
+### Encode/Decode (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/encode-decode.alfredworkflow)]
 Using the keywords `encode {query}` or `decode {query}`, will transform your query strings through *base64*, *html*, *url*, and *utf-8* encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
 ![alt text][encode]
