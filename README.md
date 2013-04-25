@@ -14,7 +14,7 @@ Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-updat
 See [CONTRIBUTING.md](https://github.com/willfarrell/alfred-workflows/blob/master/CONTRIBUTING.md) for guidelines.
 
 ## Workflows
-### Package Managers (1.5) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
+### Package Managers (1.6) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
 Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, and `rpm`. All workflows require constant internet connection. 
 
  Some repos cache their database (`alcatraz`, `grunt`, `cocoa`), these databases are refreshed  after 14 days and may take longer then expected to return results during update. You can force a database refresh by running `pkgman cachedb` to redownload the databases.
