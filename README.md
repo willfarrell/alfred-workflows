@@ -73,7 +73,7 @@ CocoaPods can be upgraded to CocoaDocs by changing `$apple_docs` to true in the 
 ### [Dev Doctor](http://wemakeawesomesh.it/alfred-dev-doctor/) (1.5) [[Download](https://github.com/sydlawrence/alfred-dev-doctor)]
 Work just like the Dash Workflow, but requires a constant internet connection. A great alternative for those who don't own Dash.
 
-### [StackOverflow](https://github.com/tzarskyz/Alfred-1) (1.1) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/StackOverflow.alfredworkflow)]
+### [StackOverflow](https://github.com/tzarskyz/Alfred-1) (1.0) [[Download](https://github.com/tzarskyz/Alfred-1/blob/master/stackoverflow.alfredworkflow?raw=true)]
 
 `st {query}`
 
@@ -95,6 +95,12 @@ Work just like the Dash Workflow, but requires a constant internet connection. A
 Using the keywords `encode {query}` or `decode {query}`, will transform your query strings through *base64*, *html*, *url*, and *utf-8* encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
 ![alt text][encode]
+
+### [Colors](https://github.com/TylerEich/Alfred-Extras) (1.0) [[Download](https://github.com/TylerEich/Alfred-Extras/blob/master/Workflows/Colors.alfredworkflow)]
+Color convertions: `c`, `hsl`, `rgb`, `#`
+
+### VirtualBox (1.0) [[Download](https://www.dropbox.com/s/51pyuuj051pydn2/VirtualBox.alfredworkflow)]
+@MattD
 
 ### Github (0.0)
 Looking for one that includes secure authentication to allow for 5000 request/hour.
