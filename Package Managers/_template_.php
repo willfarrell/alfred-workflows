@@ -5,7 +5,7 @@
 
 $query = "contrib";
 // ****************
-
+error_reporting(0);
 require_once('workflows.php');
 
 // sample search of object

@@ -14,8 +14,8 @@ Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-updat
 See [CONTRIBUTING.md](https://github.com/willfarrell/alfred-workflows/blob/master/CONTRIBUTING.md) for guidelines.
 
 ## Workflows
-### Package Managers (1.6) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
-Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, and `rpm`. All workflows require constant internet connection. 
+### Package Managers (1.7) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
+Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, `pypi`, `gems`, and `rpm`. All workflows require constant internet connection. 
 
  Some repos cache their database (`alcatraz`, `grunt`, `cocoa`), these databases are refreshed  after 14 days and may take longer then expected to return results during update. You can force a database refresh by running `pkgman cachedb` to redownload the databases.
 
@@ -42,6 +42,14 @@ CocoaPods can be upgraded to CocoaDocs by changing `$apple_docs` to true in the 
 
 ![alt text][composer]
 ![alt text][pear]
+
+**Python:** `pypi {query}`
+
+![alt text][pypi]
+
+**Ruby:** `gems {query}`
+
+![alt text][gems]
 
 **Java** `maven {query}`
 
@@ -92,7 +100,7 @@ Using the keywords `encode {query}` or `decode {query}`, will transform your que
 Looking for one that includes secure authentication to allow for 5000 request/hour.
 
 ## License
-Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) / [MIT](http://opensource.org/licenses/MIT) / [GNU General Public License v2.0](http://www.gnu.org/licenses/gpl-2.0.html).
+Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) / [MIT](http://opensource.org/licenses/MIT) / [GNU General Public License v2.0](http://www.gnu.org/licenses/gpl-2.0.html) Copyright © 2013 will Farrell willfarrell.ca
 
 
 
@@ -101,11 +109,14 @@ Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICE
 [brew]: ./Screenshots/brew.png  "Sample brew result"
 [cocoa]: ./Screenshots/cocoa.png  "Sample cocoa result"
 [composer]: ./Screenshots/composer.png  "Sample composer result"
+[gems]: ./Screenshots/gems.png "Sample gems result"
 [grunt]: ./Screenshots/grunt.png "Sample grunt result"
 [maven]: ./Screenshots/maven.png "Sample maven result"
 [npm]: ./Screenshots/npm.png "Sample npm result"
 [pear]: ./Screenshots/pear.png "Sample pear result"
+[pypi]: ./Screenshots/pypi.png "Sample pypi result"
 [rpm]: ./Screenshots/rpm.png "Sample rpm result"
+[ruby]: ./Screenshots/ruby.png "Sample ruby result"
 
 [dash]: ./Screenshots/dash.png  "Sample dash result"
 

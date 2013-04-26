@@ -21,8 +21,8 @@ if ($query) {
 		preg_match('/<a(.*?)<\/a>/i', $item, $matches);
 		$title = strip_tags($matches[0]);
 		
-		preg_match('/<p class="package-description">(.*?)<\/p>/i', $item, $matches);
-		$details = strip_tags($matches[1]);
+		preg_match('/<p class="package-description">([\s\S]*?)<\/p>/i', $item, $matches);
+		$details = strip_tags(substr($matches[1], 2));
 		
 		$w->result( $title, 'https://packagist.org/packages/'.$title, $title, $details, 'composer.png' );
 	}

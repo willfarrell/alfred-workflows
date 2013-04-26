@@ -23,7 +23,6 @@ if ($query) {
 		$title = strip_tags($matches[0]);
 		
 		// url
-		preg_match('/Homepage: <a(.*?)>(.*?)<\/a>/i', $item, $matches);
 		$details = strip_tags(substr($item, strpos($item, ":")+2));
 		
 		$w->result( $title, 'http://pear.php.net/package/'.$title, $title, $details, 'pear.png' );
