@@ -17,7 +17,7 @@ See [CONTRIBUTING.md](https://github.com/willfarrell/alfred-workflows/blob/maste
 ### Package Managers (1.7) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
 Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, `pypi`, `gems`, and `rpm`. All workflows require constant internet connection. 
 
- Some repos cache their database (`alcatraz`, `grunt`, `cocoa`), these databases are refreshed  after 14 days and may take longer then expected to return results during update. You can force a database refresh by running `pkgman cachedb` to redownload the databases.
+All repos have caching enabaled to spped up common queries. These caches are refreshed after 14 days and may take longer then expected to return results during update. You can force a cache refresh by running `pkgman cachedb` to redownload the databases (applies to `alcatraz`, `grunt`, `cocoa`). Alternatively you can run `pkgman cleardb` to remove all stored cache, but this isn't recommened.
 
 **js, css, html:** `bower {query}` 
 
@@ -45,9 +45,11 @@ CocoaPods can be upgraded to CocoaDocs by changing `$apple_docs` to true in the 
 
 **Python:** `pypi {query}`
 
+The Python Package Index is very slow due to a lack on API and pagaination. A min query length has been put in place to help speed this up. You can change it in the script, `$min_query_length = 3`. Perhaps someone with a python background can improve this.
+
 ![alt text][pypi]
 
-**Ruby:** `gems {query}`
+**Ruby:** `gems {query}` 
 
 ![alt text][gems]
 
@@ -102,6 +104,9 @@ Color convertions: `c`, `hsl`, `rgb`, `#`
 ### VirtualBox (1.0) [[Download](https://www.dropbox.com/s/51pyuuj051pydn2/VirtualBox.alfredworkflow)]
 @MattD
 
+### [Beanstalk](https://github.com/Leenug/Alfred-Beanstalk) (1.0) [[Download](https://github.com/Leenug/Alfred-Beanstalk/blob/master/Beanstalk.alfredworkflow?raw=true)]
+
+
 ### Github (0.0)
 Looking for one that includes secure authentication to allow for 5000 request/hour.
 
@@ -110,11 +115,11 @@ Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICE
 
 
 
-[alcatraz]: ./Screenshots/alcatraz.png  "Sample alcatraz result"
-[bower]: ./Screenshots/bower.png  "Sample bower result"
-[brew]: ./Screenshots/brew.png  "Sample brew result"
-[cocoa]: ./Screenshots/cocoa.png  "Sample cocoa result"
-[composer]: ./Screenshots/composer.png  "Sample composer result"
+[alcatraz]: ./Screenshots/alcatraz.png "Sample alcatraz result"
+[bower]: ./Screenshots/bower.png "Sample bower result"
+[brew]: ./Screenshots/brew.png "Sample brew result"
+[cocoa]: ./Screenshots/cocoa.png "Sample cocoa result"
+[composer]: ./Screenshots/composer.png "Sample composer result"
 [gems]: ./Screenshots/gems.png "Sample gems result"
 [grunt]: ./Screenshots/grunt.png "Sample grunt result"
 [maven]: ./Screenshots/maven.png "Sample maven result"

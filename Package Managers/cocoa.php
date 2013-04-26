@@ -2,11 +2,23 @@
 
 //header ("Content-Type:text/xml");
 
-$query = "ios";
+$query = "ab";
 // ****************
-$apple_docs = false;
+$apple_docs = true;
 
+//error_reporting(0);
+require_once('cache.php');
 require_once('workflows.php');
+
+$cache = new Cache();
+$w = new Workflows();
+//$query = urlencode( "{query}" );
+
+$pkgs = $cache->get_db('cocoa');
+if ($apple_docs) {
+	$apple = $cache->get_db('apple');
+	$pkgs = array_merge((array)$pkgs, (array)$apple);
+}
 
 function search($plugin, $query) {
 	if (strpos($plugin->name, $query) !== false) {
@@ -17,38 +29,8 @@ function search($plugin, $query) {
 	return false;
 }
 
-$w = new Workflows();
-//$query = urlencode( "{query}" );
-
-// cache package database
-$liabraries = $w->read('cocoa.json');
-$timestamp = $w->filetime('cocoa.json');
-if (!$liabraries || ($timestamp && $timestamp < (time() - 14 * 86400)) ) {
-	if ($apple_docs) {
-		$url = "http://cocoadocs.org/apple_documents.jsonp";
-		$data_a = $w->request( $url );
-		$data_a = substr($data_a, 16, -21);
-	} else {
-		$data_a = "[]";
-	}
-	//
-	
-	$data_a = "[]";
-	
-	// cocoa docs
-	$url = "http://cocoadocs.org/documents.jsonp";
-	$data_c = $w->request( $url );
-	$data_c = substr($data_c, 12, -21);
-	
-	$data = array_merge(json_decode( $data_a ), json_decode( $data_c ));
-	$w->write($data, 'cocoa.json');
-	$liabraries = $data;
-	
-	$w->result( 'cocoa-update', 'na', 'CoacaDocs Updated', 'The cache for CocoaDocs has been updated', 'cocoa.png', 'no' );
-}
-
-$count = 20;
-foreach($liabraries as $library ) {
+$count = 25;
+foreach($pkgs as $library ) {
 	if (search($library,  $query)) {
 		$title = $library->name;
 		if (isset($library->main_version)) { $title .= ' ('.$library->main_version.')'; }
@@ -58,7 +40,7 @@ foreach($liabraries as $library ) {
 		$details = (isset($library->summary)) ? $library->summary : $library->framework;
 		
 		$icon = (isset($library->url)) ? 'xcode.png' : 'cocoa.png';
-		$w->result( $library->name, $url, $title, $details, $icon );
+		$w->result( $library->name, $url, $title, $details, 'icon-cache/'.$icon );
 		if (!--$count) { break; }
 	}
 }
@@ -91,7 +73,7 @@ if ($query) {
 }*/
 
 if ( count( $w->results() ) == 0 ) {
-	$w->result( 'cocoa', 'http://cocoadocs.org/?q='.$query, 'No Library found', 'No libraries were found that match your query', 'cocoa.png', 'yes' );
+	$w->result( 'cocoa', 'http://cocoadocs.org/?q='.$query, 'No Library found', 'No libraries were found that match your query', 'icon-cache/cocoa.png', 'yes' );
 }
 
 echo $w->toxml();

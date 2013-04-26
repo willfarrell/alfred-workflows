@@ -5,32 +5,32 @@
 
 $query = "p";
 // ****************
-
+//error_reporting(0);
+require_once('cache.php');
 require_once('workflows.php');
 
+$cache = new Cache();
 $w = new Workflows();
 //$query = urlencode( "{query}" );
 
-if ($query) {
-	$data = $w->request('http://pear.php.net/search.php?q='.$query);
-	preg_match_all('/<li>([\s\S]*?)<\/li>/i', $data, $matches);
-	$items = $matches[1];
-	array_shift($items);
+$pkgs = $cache->get_query_regex('pear', $query, 'http://pear.php.net/search.php?q='.$query, '/<li>([\s\S]*?)<\/li>/i');
+
+array_shift($pkgs); // remove first item
+
+foreach($pkgs as $item) {
+	// name
+	preg_match('/<a(.*?)>(.*?)<\/a>/i', $item, $matches);
+	$title = strip_tags($matches[0]);
 	
-	foreach($items as $item) {
-		// name
-		preg_match('/<a(.*?)>(.*?)<\/a>/i', $item, $matches);
-		$title = strip_tags($matches[0]);
-		
-		// url
-		$details = strip_tags(substr($item, strpos($item, ":")+2));
-		
-		$w->result( $title, 'http://pear.php.net/package/'.$title, $title, $details, 'pear.png' );
-	}
+	// url
+	$details = strip_tags(substr($item, strpos($item, ":")+2));
+	
+	$w->result( $title, 'http://pear.php.net/package/'.$title, $title, $details, 'icon-cache/pear.png' );
 }
 
+
 if ( count( $w->results() ) == 0 ) {
-	$w->result( 'pear', 'http://pear.php.net/search.php?q='.$query, 'No Repository found', 'No packages were found that match your query', 'pear.png', 'yes' );
+	$w->result( 'pear', 'http://pear.php.net/search.php?q='.$query, 'No Repository found', 'No packages were found that match your query', 'icon-cache/pear.png', 'yes' );
 }
 
 echo $w->toxml();

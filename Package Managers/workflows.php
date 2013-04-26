@@ -368,7 +368,20 @@ class Workflows {
 		exec('mdfind "'.$query.'"', $results);
 		return $results;
 	}
-
+	
+	public function delete( $a )
+	{
+		if ( file_exists( $a ) ):
+			if ( file_exists( $this->path.'/'.$a ) ):
+				unlink($this->path.'/'.$a);
+			endif;
+		elseif ( file_exists( $this->data."/".$a ) ):
+			unlink($this->data."/".$a);
+		elseif ( file_exists( $this->cache."/".$a ) ):
+			unlink($this->cache."/".$a);
+		endif;
+	}
+	
 	/**
 	* Description:
 	* Accepts data and a string file name to store data to local file as cache
@@ -424,7 +437,7 @@ class Workflows {
 		else:
 			return false;
 		endif;
-
+		
 		$out = file_get_contents( $a );
 		if ( !is_null( json_decode( $out ) ) ):
 			$out = json_decode( $out );

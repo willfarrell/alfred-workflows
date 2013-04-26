@@ -5,31 +5,29 @@
 
 $query = "php";
 // ****************
-
+//error_reporting(0);
+require_once('cache.php');
 require_once('workflows.php');
 
+$cache = new Cache();
 $w = new Workflows();
-$query = urlencode( "{query}" );
+//$query = urlencode( "{query}" );
 
-if ($query) {
-	$data = $w->request('https://packagist.org/search/?search_query[query]='.$query);
-	$items = explode('<h1>', $data);
-	array_shift($items);
-	array_shift($items);
+$pkgs = $cache->get_query_regex('composer', $query, 'https://packagist.org/search/?search_query[query]='.$query, '/<li data-url="(.*?)">([\s\S]*?)<\/li>/i', 2);
+
+foreach($pkgs as $item) {
+	preg_match('/<a(.*?)<\/a>/i', $item, $matches);
+	$title = strip_tags($matches[0]);
 	
-	foreach($items as $item) {
-		preg_match('/<a(.*?)<\/a>/i', $item, $matches);
-		$title = strip_tags($matches[0]);
-		
-		preg_match('/<p class="package-description">([\s\S]*?)<\/p>/i', $item, $matches);
-		$details = strip_tags(substr($matches[1], 2));
-		
-		$w->result( $title, 'https://packagist.org/packages/'.$title, $title, $details, 'composer.png' );
-	}
+	preg_match('/<p class="package-description">([\s\S]*?)<\/p>/i', $item, $matches);
+	$details = strip_tags(substr($matches[1], 2));
+	
+	$w->result( $title, 'https://packagist.org/packages/'.$title, $title, $details, 'icon-cache/composer.png' );
 }
 
+
 if ( count( $w->results() ) == 0 ) {
-	$w->result( 'composer', 'https://packagist.org/search/?q='.$query, 'No Repository found', 'No packages were found that match your query', 'composer.png', 'yes' );
+	$w->result( 'composer', 'https://packagist.org/search/?q='.$query, 'No Repository found', 'No packages were found that match your query', 'icon-cache/composer.png', 'yes' );
 }
 
 echo $w->toxml();

@@ -4,8 +4,15 @@
 
 $query = "contrib";
 // ****************
-
+//error_reporting(0);
+require_once('cache.php');
 require_once('workflows.php');
+
+$cache = new Cache();
+$w = new Workflows();
+//$query = urlencode( "{query}" );
+
+$pkgs = $cache->get_db('grunt');
 
 function search($plugin, $query) {
 	if (strpos($plugin->name, $query) !== false) {
@@ -22,23 +29,7 @@ function search($plugin, $query) {
 	return false;
 }
 
-$w = new Workflows();
-$query = urlencode( "{query}" );
-
-// cache package database
-$plugins = $w->read('grunt.json');
-$timestamp = $w->filetime('grunt.json');
-if ( !$plugins || ($timestamp && $timestamp < (time() - 14 * 86400)) ) {
-	$url = "http://gruntjs.com/plugin-list";
-	$pluginlist = $w->request( $url );
-	
-	$w->write($pluginlist, 'grunt.json');
-	$plugins = json_decode( $pluginlist );
-	$w->result( 'grunt-update', 'na', 'Grunt Updated', 'The cache for Grunt has been updated', 'grunt.png', 'no' );
-}
-
-
-foreach($plugins as $plugin ) {
+foreach($pkgs as $plugin ) {
 	if (search($plugin,  $query)) {
 		$title = str_replace('grunt-', '', $plugin->name); // remove grunt- from title
 	
@@ -49,12 +40,12 @@ foreach($plugins as $plugin ) {
 		$url = str_replace("git://", "https://", $plugin->github);
 		
 		//if (strpos($plugin->description, "DEPRECATED") !== false) { continue; } // skip DEPRECATED repos
-		$w->result( $plugin->name, $url, $title, $plugin->description, 'grunt.png' );
+		$w->result( $plugin->name, $url, $title, $plugin->description, 'icon-cache/grunt.png' );
 	}
 }
 
 if ( count( $w->results() ) == 0 ) {
-	$w->result( 'grunt', 'http://gruntjs.com/plugins/'.$query, 'No Repository found', 'No plugins were found that match your query', 'grunt.png', 'yes' );
+	$w->result( 'grunt', 'http://gruntjs.com/plugins/'.$query, 'No Repository found', 'No plugins were found that match your query', 'icon-cache/grunt.png', 'yes' );
 }
 
 echo $w->toxml();

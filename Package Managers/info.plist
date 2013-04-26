@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.farrell.pkgman.alfredworkflow</string>
+	<key>connections</key>
+	<dict>
+		<key>18B0C07D-A101-4267-B306-7925DE8A30C9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A704625-29E6-450E-8F2C-8E4EC7179899</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>265DF548-7D96-4F94-AB0E-6AD26F31B4A1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>2BECD5EE-3FDE-434C-8ADA-2FEAE34FBF34</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>52E889A1-1A44-49FD-AEE9-5CBD1DC38AC4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>2F314483-5E76-477B-BB7E-574CA71131B4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>4F9B49BB-0F1E-4D72-A339-08C76E2D2C2A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>18B0C07D-A101-4267-B306-7925DE8A30C9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>52E889A1-1A44-49FD-AEE9-5CBD1DC38AC4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>348251C4-2B72-432F-A923-B082C6740DEA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>67851157-5987-4B55-BDD9-90A9347C46A5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>78A70680-7C8A-4CC4-AE71-A070E3E8CCD9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>96A609DD-13FB-44C7-9ADB-F3BC94017A65</key>
+		<array/>
+		<key>98FB2C27-091A-41A9-B3E1-109EA8523BBF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>A83F18D3-B34F-4AA7-A164-F19D8CE1C790</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>B9D9D59E-5B75-418E-8D5D-75EADD6D162A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>C0190356-1EDC-4E5C-8187-9E3C4C69FBD1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>D22F4CD1-A38D-4D9A-B910-E82A467AB0CC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>D8F2FDC0-B462-4C50-8A42-9E6A511395A8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>E106723F-9932-431B-8250-64F2983338FC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>E894CAC8-3680-4863-B8A5-EFCFD78B56F3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>will Farrell (@willfarrell)</string>
+	<key>description</key>
+	<string>Package Repo Search</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Package Managers</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>pkgman cachedb</string>
+				<key>subtext</key>
+				<string>Rebuild Package Manager Cached Databases</string>
+				<key>text</key>
+				<string>Force Repo DB Update</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2BECD5EE-3FDE-434C-8ADA-2FEAE34FBF34</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>script</key>
+				<string>require_once('workflows.php');
+
+$json = array(
+	"alcatraz" =&gt; "https://raw.github.com/mneorr/alcatraz-packages/master/packages.json",
+	//"apple" =&gt; "http://cocoadocs.org/apple_documents.jsonp",
+	"cocoa" =&gt; "http://cocoadocs.org/documents.jsonp",
+	"grunt" =&gt; "http://gruntjs.com/plugin-list",
+);
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+foreach($json as $key =&gt; $url) {
+	$data = $w-&gt;request( $url );
+	
+	// clean jsonp
+	$data = preg_replace('/.+?({.+}).+/','$1',$data);
+	
+	$w-&gt;write($data, $key.'.json');
+}
+
+//$w-&gt;result( 'cachedb', 'NA', 'Downloading... ', 'You\'ll get a notification when it\'s done. It should be soon.', 'icon.png', 'no' );</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>52E889A1-1A44-49FD-AEE9-5CBD1DC38AC4</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>Package Manager Databases Cached</string>
+				<key>title</key>
+				<string>Cache Complete</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>348251C4-2B72-432F-A923-B082C6740DEA</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>script</key>
+				<string></string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>18B0C07D-A101-4267-B306-7925DE8A30C9</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>pkgman cleardb</string>
+				<key>subtext</key>
+				<string>Remove all database caches</string>
+				<key>text</key>
+				<string>Clear Cache</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4F9B49BB-0F1E-4D72-A339-08C76E2D2C2A</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>Package Manager Databases Cleared</string>
+				<key>title</key>
+				<string>Cache Deleted</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>0A704625-29E6-450E-8F2C-8E4EC7179899</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>96A609DD-13FB-44C7-9ADB-F3BC94017A65</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>bower</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>//error_reporting(0);
+require_once('cache.php');
+require_once('workflows.php');
+
+$cache = new Cache();
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+$pkgs = $cache-&gt;get_query_json('bower', $query, 'https://bower.herokuapp.com/packages/search/'.$query);
+
+foreach($pkgs as $pkg) {
+	$url = str_replace("git://", "https://", $pkg-&gt;url);
+	$w-&gt;result( $pkg-&gt;url, $url, $pkg-&gt;name, $url, 'icon-cache/bower.png' );
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'bower', 'http://sindresorhus.com/bower-components/#!/search/'.$query, 'No Repository found', 'No components were found that match your query', 'icon-cache/bower.png', 'yes' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search bower for "{query}"</string>
+				<key>title</key>
+				<string>Search bower</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E894CAC8-3680-4863-B8A5-EFCFD78B56F3</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>grunt</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>require_once('cache.php');
+require_once('workflows.php');
+
+$cache = new Cache();
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+$pkgs = $cache-&gt;get('grunt');
+
+function search($plugin, $query) {
+	if (strpos($plugin-&gt;name, $query) !== false) {
+		return true;
+	} else if (strpos($plugin-&gt;description, $query) !== false) {
+		return true;
+	} else {
+		foreach($plugin-&gt;keywords as $keyword) {
+			if (strpos($keyword, $query) !== false) {
+				return true;
+			}
+		}
+	}
+	return false;
+}
+
+foreach($pkgs as $plugin ) {
+	if (search($plugin,  $query)) {
+		$title = str_replace('grunt-', '', $plugin-&gt;name); // remove grunt- from title
+	
+		// add author to title
+		if (isset($plugin-&gt;author) &amp;&amp; isset($plugin-&gt;author-&gt;name)) {
+			$title .= " by " . $plugin-&gt;author-&gt;name;
+		}
+		$url = str_replace("git://", "https://", $plugin-&gt;github);
+		
+		//if (strpos($plugin-&gt;description, "DEPRECATED") !== false) { continue; } // skip DEPRECATED repos
+		$w-&gt;result( $plugin-&gt;name, $url, $title, $plugin-&gt;description, 'icon-cache/grunt.png' );
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'grunt', 'http://gruntjs.com/plugins/'.$query, 'No Repository found', 'No plugins were found that match your query', 'icon-cache/grunt.png', 'yes' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search Grunt for "{query}"</string>
+				<key>title</key>
+				<string>Search Grunt</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C0190356-1EDC-4E5C-8187-9E3C4C69FBD1</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>npm</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>error_reporting(0);
+require_once('workflows.php');
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+
+if ($query) {
+	$data = $w-&gt;request('https://npmjs.org/search?q='.$query);
+	//echo $data;
+	$items = explode('&lt;li class="search-result package"&gt;', $data);
+	array_shift($items);
+	//$items = array_pop($items);
+	
+	foreach($items as $item) {
+		//echo $item;
+		preg_match('/&lt;h2&gt;(.*?)&lt;\/h2&gt;/i', $item, $matches);
+		$title = strip_tags($matches[1]);
+		
+		preg_match_all('/&lt;p[^&gt;]*&gt;([\s\S]*?)&lt;\/p&gt;/i', $item, $matches);
+		//print_r($matches);
+		$author = trim(strip_tags($matches[1][0]));
+		$author = preg_replace("/[\s]+/", " ", $author);
+		$details = trim(strip_tags($matches[1][1]));
+		
+		$w-&gt;result( $title, 'https://npmjs.org/package/'.$title, $title.' ~ '.$author, $details, 'npm.png' );
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'npm', 'na', 'No Repository found', 'No packages were found that match your query', 'npm.png', 'no' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search npm for "{query}"</string>
+				<key>title</key>
+				<string>Search npm</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E106723F-9932-431B-8250-64F2983338FC</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>composer</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>error_reporting(0);
+require_once('workflows.php');
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+if ($query) {
+	$data = $w-&gt;request('https://packagist.org/search/?search_query[query]='.$query);
+	$items = explode('&lt;h1&gt;', $data);
+	array_shift($items);
+	array_shift($items);
+	
+	foreach($items as $item) {
+		preg_match('/&lt;a(.*?)&lt;\/a&gt;/i', $item, $matches);
+		$title = strip_tags($matches[0]);
+		
+		preg_match('/&lt;p class="package-description"&gt;(.*?)&lt;\/p&gt;/i', $item, $matches);
+		$details = strip_tags(substr($matches[1], 2));
+		
+		$w-&gt;result( $title, 'https://packagist.org/packages/'.$title, $title, $details, 'composer.png' );
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'composer', 'https://packagist.org/search/?q='.$query, 'No Repository found', 'No packages were found that match your query', 'composer.png', 'yes' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search Compoer for "{query}"</string>
+				<key>title</key>
+				<string>Composer</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>67851157-5987-4B55-BDD9-90A9347C46A5</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>pear</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>error_reporting(0);
+require_once('workflows.php');
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+if ($query) {
+	$data = $w-&gt;request('http://pear.php.net/search.php?q='.$query);
+	preg_match_all('/&lt;li&gt;([\s\S]*?)&lt;\/li&gt;/i', $data, $matches);
+	$items = $matches[1];
+	array_shift($items);
+	
+	foreach($items as $item) {
+		// name
+		preg_match('/&lt;a(.*?)&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
+		$title = strip_tags($matches[0]);
+		
+		// url
+		$details = strip_tags(substr($item, strpos($item, ":")+2));
+		
+		$w-&gt;result( $title, 'http://pear.php.net/package/'.$title, $title, $details, 'pear.png' );
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'pear', 'http://pear.php.net/search.php?q='.$query, 'No Repository found', 'No packages were found that match your query', 'pear.png', 'yes' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search PEAR for "{query}"</string>
+				<key>title</key>
+				<string>Search PEAR</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A83F18D3-B34F-4AA7-A164-F19D8CE1C790</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>gems</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>error_reporting(0);
+require_once('workflows.php');
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+// search API sample
+if ($query) {
+	$data = $w-&gt;request('http://rubygems.org/search?utf8=%E2%9C%93&amp;query='.$query);
+	preg_match_all('/&lt;li&gt;([\s\S]*?)&lt;\/li&gt;/i', $data, $matches);
+	$items = $matches[1];
+	//array_shift($items);
+	
+	foreach($items as $item) {
+		//echo $item;
+		// name
+		preg_match_all('/&lt;strong&gt;(.*?)&lt;\/strong&gt;/i', $item, $matches);
+		//print_r($matches);
+		$title = strip_tags($matches[1][1]);
+		
+		// url
+		preg_match('/&lt;a href="(.*?)"&gt;([\s\S]*?)&lt;\/a&gt;/i', $item, $matches);
+		$url = $matches[1];
+		
+		$details = trim(strip_tags(substr($matches[2], strpos($matches[2], "&lt;/strong&gt;")+9)));
+		
+		if ($title &amp;&amp; $details) { // filter out nav links
+			$w-&gt;result( $title, 'http://rubygems.org'.$url, $title, $details, 'gems.png' );
+		}
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'gems', 'http://rubygems.org/search?utf8=%E2%9C%93&amp;query='.$query, 'No Gems found', 'No gems were found that match your query', 'gems.png', 'yes' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search Rudy Gems for "{query}"</string>
+				<key>title</key>
+				<string>Search Rudy Gems</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>B9D9D59E-5B75-418E-8D5D-75EADD6D162A</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>pypi</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>error_reporting(0);
+require_once('workflows.php');
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+// search API sample
+if ($query) {
+	$data = $w-&gt;request('https://pypi.python.org/pypi?%3Aaction=search&amp;term='.$query.'&amp;submit=search');
+	preg_match_all('/&lt;tr class="(.*?)"&gt;([\s\S]*?)&lt;\/tr&gt;/i', $data, $matches);
+	$items = $matches[2];
+	
+	$count = 25;
+	foreach($items as $item) {
+		// name
+		preg_match('/&lt;a href="(.*?)"&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
+		$title = str_replace("&amp;nbsp;", " ", strip_tags($matches[0]));
+		$url = strip_tags($matches[1]);
+		
+		preg_match_all('/&lt;td&gt;([\s\S]*?)&lt;\/td&gt;/i', $item, $matches);
+		$details = strip_tags($matches[1][2]);
+		
+		$w-&gt;result( $title, 'https://pypi.python.org'.$url, $title, $details, 'pypi.png' );
+		if (!--$count) { break; }
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'pypi', 'https://pypi.python.org/pypi?%3Aaction=search&amp;term='.$query.'&amp;submit=search', 'No Packages found', 'No packages were found that match your query', 'pypi.png', 'yes' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search Python for "{query}"</string>
+				<key>title</key>
+				<string>Search Python Packages</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D22F4CD1-A38D-4D9A-B910-E82A467AB0CC</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>alcatraz</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>error_reporting(0);
+require_once('workflows.php');
+
+function search($item, $query) {
+	if (strpos($item-&gt;name, $query) !== false) {
+		return true;
+	} else if (strpos($item-&gt;description, $query) !== false) {
+		return true;
+	}
+	return false;
+}
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+// cache package database
+$packages = $w-&gt;read('alcatraz.json');
+$timestamp = $w-&gt;filetime('alcatraz.json');
+if ( !$packages || ($timestamp &amp;&amp; $timestamp &lt; (time() - 14 * 86400)) ) {
+	$url = "https://raw.github.com/mneorr/alcatraz-packages/master/packages.json";
+	$json = $w-&gt;request( $url );
+	
+	$w-&gt;write($json, 'alcatraz.json');
+	$packages = json_decode( $json );
+	$w-&gt;result( 'alcatraz-update', 'na', 'Alcatraz Updated', 'The cache for Alcatraz has been updated', 'alcatraz.png', 'no' );
+}
+
+foreach($packages-&gt;packages as $package ) {
+	// plugins, color_scheme, project_templates, file_templates
+	for( $i = 0; $i &lt; count($package); $i++ ) {
+		
+		if (search($package[$i], $query)) {
+			$w-&gt;result( $package[$i]-&gt;url, $package[$i]-&gt;url, $package[$i]-&gt;name, $package[$i]-&gt;description, 'alcatraz.png' );
+		}
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'alcatraz', 'http://mneorr.github.io/Alcatraz/'.$query, 'No Repository found', 'No packages were found that match your query', 'alcatraz.png', 'no' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search Alcatraz for "{query}"</string>
+				<key>title</key>
+				<string>Search Alcatraz</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>98FB2C27-091A-41A9-B3E1-109EA8523BBF</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>cocoa</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>$apple_docs = false;
+
+error_reporting(0);
+require_once('workflows.php');
+
+function search($plugin, $query) {
+	if (strpos($plugin-&gt;name, $query) !== false) {
+		return true;
+	} else if (isset($plugin-&gt;summary) &amp;&amp; strpos($plugin-&gt;summary, $query) !== false) {
+		return true;
+	}
+	return false;
+}
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+// cache package database
+$liabraries = $w-&gt;read('cocoa.json');
+$timestamp = $w-&gt;filetime('cocoa.json');
+if (!$liabraries || ($timestamp &amp;&amp; $timestamp &lt; (time() - 14 * 86400)) ) {
+	if ($apple_docs) {
+		$url = "http://cocoadocs.org/apple_documents.jsonp";
+		$data_a = $w-&gt;request( $url );
+		$data_a = substr($data_a, 16, -21);
+	} else {
+		$data_a = "[]";
+	}
+	//
+	
+	$data_a = "[]";
+	
+	// cocoa docs
+	$url = "http://cocoadocs.org/documents.jsonp";
+	$data_c = $w-&gt;request( $url );
+	$data_c = substr($data_c, 12, -21);
+	
+	$data = array_merge(json_decode( $data_a ), json_decode( $data_c ));
+	$w-&gt;write($data, 'cocoa.json');
+	$liabraries = $data;
+	
+	$w-&gt;result( 'cocoa-update', 'na', 'CoacaDocs Updated', 'The cache for CocoaDocs has been updated', 'cocoa.png', 'no' );
+}
+
+$count = 20;
+foreach($liabraries as $library ) {
+	if (search($library,  $query)) {
+		$title = $library-&gt;name;
+		if (isset($library-&gt;main_version)) { $title .= ' ('.$library-&gt;main_version.')'; }
+		if (isset($library-&gt;user)) { $title .= ' ~ '.$library-&gt;user; }
+		
+		$url = (isset($library-&gt;url)) ? $library-&gt;url : $library-&gt;doc_url;
+		$details = (isset($library-&gt;summary)) ? $library-&gt;summary : $library-&gt;framework;
+		
+		$icon = (isset($library-&gt;url)) ? 'xcode.png' : 'cocoa.png';
+		$w-&gt;result( $library-&gt;name, $url, $title, $details, $icon );
+		if (!--$count) { break; }
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'cocoa', 'http://cocoadocs.org/?q='.$query, 'No Library found', 'No libraries were found that match your query', 'cocoa.png', 'yes' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search CocoaPods for "{query}"</string>
+				<key>title</key>
+				<string>Search CocoaPods</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>265DF548-7D96-4F94-AB0E-6AD26F31B4A1</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>brew</string>
+				<key>runningsubtext</key>
+				<string>Searcing for "{query}"</string>
+				<key>script</key>
+				<string>error_reporting(0);
+require_once('workflows.php');
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+if ($query) {
+	$data = $w-&gt;request('http://braumeister.org/search/'.$query);
+	preg_match_all('/&lt;div class="formula (odd|even)"&gt;([\s\S]*?)&lt;\/div&gt;/i', $data, $matches);
+	
+	foreach($matches[2] as $item) {
+		// name
+		preg_match('/&lt;a(.*?) class="formula"&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
+		$title = strip_tags($matches[0]);
+		
+		// version
+		preg_match('/&lt;strong class="version"&gt;(.*?)&lt;\/strong&gt;/i', $item, $matches);
+		$version = strip_tags($matches[0]);
+		
+		// url
+		preg_match('/Homepage: &lt;a(.*?)&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
+		$details = strip_tags($matches[2]);
+		
+		$w-&gt;result( $title, 'http://braumeister.org/formula/'.$title, $title.' ~ '.$version, $details, 'brew.png' );
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'homebrew', 'http://braumeister.org/search/'.$query, 'No Repository found', 'No packages were found that match your query', 'brew.png', 'yes' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search homebrew for "{query}"</string>
+				<key>title</key>
+				<string>Search homebrew</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>78A70680-7C8A-4CC4-AE71-A070E3E8CCD9</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>rpm</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>error_reporting(0);
+require_once('workflows.php');
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+
+if ($query) {
+	$data = $w-&gt;request('http://rpmfind.net/linux/rpm2html/search.php?query='.$query.'&amp;system=&amp;arch=');
+	preg_match_all('/&lt;tr bgcolor=\'\'&gt;([\s\S]*?)&lt;\/tr&gt;/i', $data, $matches);
+	
+	foreach($matches[1] as $item) {
+		// title and url
+		preg_match('/&lt;a href=[\'"](.*?)[\'"]&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
+		$title = strip_tags($matches[2]);
+		$url = strip_tags($matches[1]);
+		
+		preg_match_all('/&lt;td&gt;([\s\S]*?)&lt;\/td&gt;/i', $item, $matches);
+		$dist = trim(strip_tags($matches[1][2]));
+		$details = trim(strip_tags($matches[1][1]));
+		
+		$w-&gt;result( $title, $url, $title, $dist.' - '.$details, 'rpm.png' );
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'rpm', 'http://rpmfind.net/linux/rpm2html/search.php?query='.$query.'&amp;system=&amp;arch=', 'No Repository found', 'No packages were found that match your query', 'rpm.png', 'yes' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search rpm for "{query}"</string>
+				<key>title</key>
+				<string>Search rpm</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D8F2FDC0-B462-4C50-8A42-9E6A511395A8</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>maven</string>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>error_reporting(0);
+require_once('workflows.php');
+
+$w = new Workflows();
+$query = urlencode( "{query}" );
+
+if ($query) {
+	$data = $w-&gt;request('http://search.maven.org/solrsearch/select?q='.$query.'&amp;rows=10&amp;wt=json');
+	$json = json_decode($data);
+	
+	foreach($json-&gt;response-&gt;docs as $item) {
+		$title = $item-&gt;a.' ('.$item-&gt;latestVersion.')';
+		$url = 'http://search.maven.org/#artifactdetails%7C'.$item-&gt;g.'%7C'.$item-&gt;a.'%7C'.$item-&gt;latestVersion.'%7C'.$item-&gt;p;
+		$details = 'GroupId: '.$item-&gt;id;
+		$w-&gt;result( $title, $url, $title, $details, 'maven.png' );
+	}
+}
+
+if ( count( $w-&gt;results() ) == 0 ) {
+	$w-&gt;result( 'maven', 'http://mvnrepository.com/search.html?query='.$query, 'No Library found', 'No libraries were found that match your query', 'maven.png', 'yes' );
+}
+
+echo $w-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Search Mavin for "{query}"</string>
+				<key>title</key>
+				<string>Search Mavin</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>2F314483-5E76-477B-BB7E-574CA71131B4</string>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0A704625-29E6-450E-8F2C-8E4EC7179899</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>18B0C07D-A101-4267-B306-7925DE8A30C9</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>265DF548-7D96-4F94-AB0E-6AD26F31B4A1</key>
+		<dict>
+			<key>ypos</key>
+			<real>1140</real>
+		</dict>
+		<key>2BECD5EE-3FDE-434C-8ADA-2FEAE34FBF34</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>2F314483-5E76-477B-BB7E-574CA71131B4</key>
+		<dict>
+			<key>ypos</key>
+			<real>1440</real>
+		</dict>
+		<key>348251C4-2B72-432F-A923-B082C6740DEA</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>4F9B49BB-0F1E-4D72-A339-08C76E2D2C2A</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>52E889A1-1A44-49FD-AEE9-5CBD1DC38AC4</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>67851157-5987-4B55-BDD9-90A9347C46A5</key>
+		<dict>
+			<key>ypos</key>
+			<real>640</real>
+		</dict>
+		<key>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</key>
+		<dict>
+			<key>ypos</key>
+			<real>890</real>
+		</dict>
+		<key>78A70680-7C8A-4CC4-AE71-A070E3E8CCD9</key>
+		<dict>
+			<key>ypos</key>
+			<real>1240</real>
+		</dict>
+		<key>96A609DD-13FB-44C7-9ADB-F3BC94017A65</key>
+		<dict>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+		<key>98FB2C27-091A-41A9-B3E1-109EA8523BBF</key>
+		<dict>
+			<key>ypos</key>
+			<real>1040</real>
+		</dict>
+		<key>A83F18D3-B34F-4AA7-A164-F19D8CE1C790</key>
+		<dict>
+			<key>ypos</key>
+			<real>740</real>
+		</dict>
+		<key>B9D9D59E-5B75-418E-8D5D-75EADD6D162A</key>
+		<dict>
+			<key>ypos</key>
+			<real>840</real>
+		</dict>
+		<key>C0190356-1EDC-4E5C-8187-9E3C4C69FBD1</key>
+		<dict>
+			<key>ypos</key>
+			<real>440</real>
+		</dict>
+		<key>D22F4CD1-A38D-4D9A-B910-E82A467AB0CC</key>
+		<dict>
+			<key>ypos</key>
+			<real>940</real>
+		</dict>
+		<key>D8F2FDC0-B462-4C50-8A42-9E6A511395A8</key>
+		<dict>
+			<key>ypos</key>
+			<real>1340</real>
+		</dict>
+		<key>E106723F-9932-431B-8250-64F2983338FC</key>
+		<dict>
+			<key>ypos</key>
+			<real>540</real>
+		</dict>
+		<key>E894CAC8-3680-4863-B8A5-EFCFD78B56F3</key>
+		<dict>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>github.com/willfarrell</string>
+</dict>
+</plist>
