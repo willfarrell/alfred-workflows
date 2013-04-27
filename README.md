@@ -135,6 +135,6 @@ Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICE
 
 [jenkins]: https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/alfred-jenkins-workflow-screenshot.png "Sample jenkins result"
 
-[kill]: https://github.com/nathangreenstein/alfred-process-killer/raw/master/screenshot.png "Sample kill result"
+[kill]: https://github.com/nathangreenstein/alfred-process-killer/raw/master/screenshot1.png "Sample kill result"
 
 [encode]: ./Screenshots/encode.png  "Sample encode result"
