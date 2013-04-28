@@ -15,11 +15,11 @@ See [CONTRIBUTING.md](https://github.com/willfarrell/alfred-workflows/blob/maste
 
 ## Workflows
 ### Package Managers (1.7) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
-Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, `pypi`, `gems`, and `rpm`. All workflows require constant internet connection. 
+Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, `pypi`, `gems`, and `rpm`. All workflows require constant internet connection.
 
 All repos have caching enabaled to spped up common queries. These caches are refreshed after 14 days and may take longer then expected to return results during update. You can force a cache refresh by running `pkgman cachedb` to redownload the databases (applies to `alcatraz`, `grunt`, `cocoa`). Alternatively you can run `pkgman cleardb` to remove all stored cache, but this isn't recommened.
 
-**js, css, html:** `bower {query}` 
+**js, css, html:** `bower {query}`
 
 ![alt text][bower]
 
@@ -49,7 +49,7 @@ The Python Package Index is very slow due to a lack on API and pagaination. A mi
 
 ![alt text][pypi]
 
-**Ruby:** `gems {query}` 
+**Ruby:** `gems {query}`
 
 ![alt text][gems]
 
@@ -68,7 +68,7 @@ The Python Package Index is very slow due to a lack on API and pagaination. A mi
 ### Dash (1.2) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Dash.alfredworkflow)]
 [Dash](http://kapeli.com/) comes with default Alfred 2 Workflow. This is an extension to that by shortening the keyword filters for each language. Does not require online connection.
 
-**Commands Included:** `dash {query}` (default), `html {query}`, `css {query}`, `js {query}`, `jquery {query}`, `angularjs {query}`, `bootstrap {query}`, `svg {query}`, `nodejs {query}`, `php {query}`, `redis {query}`, `mysql {query}`, `cpp {query}`
+**Commands Included:** `dash {query}` (default), `html {query}`, `css {query}`, `js {query}`, `jquery {query}`, `angularjs {query}`, `bootstrap {query}`, `svg {query}`, `nodejs {query}`, `php {query}`, `redis {query}`, `mysql {query}`, `cpp {query}`, `backbone {query}`, `underscore {query}`, `sass {query}`, `compass {query}`, `wordpress {query}`, `drupal {query}`
 
 ![alt text][dash]
 
@@ -81,13 +81,13 @@ Work just like the Dash Workflow, but requires a constant internet connection. A
 
 ![alt text][st]
 
-### [Jenkins](https://github.com/jeroenseegers/alfred-jenkins-workflow) (1.0) [[Download](https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/Jenkins.alfredworkflow)] 
+### [Jenkins](https://github.com/jeroenseegers/alfred-jenkins-workflow) (1.0) [[Download](https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/Jenkins.alfredworkflow)]
 
 `jenkins {query}`
 
 ![alt text][jenkins]
 
-### [Kill Process](https://github.com/nathangreenstein/alfred-process-killer) (1.0)  [[Download](https://github.com/nathangreenstein/alfred-process-killer/raw/master/Kill%20Process.alfredworkflow)] 
+### [Kill Process](https://github.com/nathangreenstein/alfred-process-killer) (1.0)  [[Download](https://github.com/nathangreenstein/alfred-process-killer/raw/master/Kill%20Process.alfredworkflow)]
 
 `kill {query}`
 
