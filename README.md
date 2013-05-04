@@ -87,7 +87,7 @@ Work just like the Dash Workflow, but requires a constant internet connection. A
 
 ![alt text][jenkins]
 
-### [Kill Process](https://github.com/nathangreenstein/alfred-process-killer) (1.0)  [[Download](https://github.com/nathangreenstein/alfred-process-killer/raw/master/Kill%20Process.alfredworkflow)]
+### [Kill Process](https://github.com/nathangreenstein/alfred-process-killer) (1.2)  [[Download](https://github.com/nathangreenstein/alfred-process-killer/raw/master/Kill%20Process.alfredworkflow)]
 
 `kill {query}`
 
@@ -98,7 +98,7 @@ Using the keywords `encode {query}` or `decode {query}`, will transform your que
 
 ![alt text][encode]
 
-### [Colors](https://github.com/TylerEich/Alfred-Extras) (1.0) [[Download](https://github.com/TylerEich/Alfred-Extras/blob/master/Workflows/Colors.alfredworkflow)]
+### [Colors](https://github.com/TylerEich/Alfred-Extras) (1.2) [[Download](https://github.com/TylerEich/Alfred-Extras/blob/master/Workflows/Colors.alfredworkflow)]
 Color convertions: `c`, `hsl`, `rgb`, `#`
 
 ### VirtualBox (1.0) [[Download](https://www.dropbox.com/s/51pyuuj051pydn2/VirtualBox.alfredworkflow)]
