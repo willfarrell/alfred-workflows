@@ -1,7 +1,5 @@
 # Alfred Workflows for Developers
 
-***
-
 ## Installing
 1. Click the download buttons below
 2. Double-click to import into Alfred 2
