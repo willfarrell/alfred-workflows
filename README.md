@@ -109,7 +109,7 @@ Color convertions: `c`, `hsl`, `rgb`, `#`
 Looking for one that includes secure authentication to allow for 5000 request/hour.
 
 ## License
-Pick your poison [Apache Public License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) / [MIT](http://opensource.org/licenses/MIT) / [GNU General Public License v2.0](http://www.gnu.org/licenses/gpl-2.0.html) Copyright © 2013 will Farrell willfarrell.ca
+Pick your poison [Apache Public License](https://www.apache.org/licenses/) / [MIT](http://opensource.org/licenses/MIT) / [GNU General Public License](http://www.gnu.org/licenses/gpl.html) Copyright © 2013 will Farrell willfarrell.ca
 
 
 
