@@ -21,11 +21,17 @@ foreach($pkgs as $pkg) {
 	$title = $matches[2];
 	$url = 'https://index.docker.io'.$matches[1];
 	
-	preg_match('/<p>(.*?)<\/p>/i', $pkg, $matches);print_r($matches);
+	preg_match('/<p>(.*?)<\/p>/i', $pkg, $matches);
 	$description = $matches[1];
+	if (!$description) {
+		$description = $url;
+	}
 	
 	preg_match('/<p class="date">Last updated: (.*?)[\s]*downloaded: (.*?) times<\/p>/i', $pkg, $matches);
 	$updated = $matches[1];
+	if ($updated == "Not Available") {
+		$updated = "";
+	}
 	$downloads = $matches[2];
 	
 	$w->result( $title, $url, $title."    ".$updated."    ".$downloads, $description, 'icon-cache/docker.png' );
