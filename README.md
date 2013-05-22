@@ -13,7 +13,7 @@ See [CONTRIBUTING.md](https://github.com/willfarrell/alfred-workflows/blob/maste
 
 ## Workflows
 ### Package Managers (1.9) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Package%20Managers.alfredworkflow)]
-Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, `pypi`, `gems`, and `rpm`. All workflows require constant internet connection.
+Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `docker`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, `pypi`, `gems`, and `rpm`. All workflows require constant internet connection.
 
 All repos have caching enabled to speed up common queries. These caches are refreshed after 14 days and may take longer then expected to return results during update. You can force a cache refresh by running `pkgman cachedb` to redownload the databases (applies to `alcatraz`, `grunt`, `cocoa`). Alternatively you can run `pkgman cleardb` to remove all stored cache, but this isn't recommened.
 
@@ -62,6 +62,10 @@ The Python Package Index is very slow due to a lack on API and pagaination. A mi
 **Linux:** `rpm {query}`
 
 ![alt text][rpm]
+
+**Linux containers:** `docker {query}`
+
+![alt text][docker]
 
 ### Dash (1.3) [[Download](https://raw.github.com/willfarrell/alfred-workflows/master/Dash.alfredworkflow)]
 [Dash](http://kapeli.com/) comes with default Alfred 2 Workflow. This is an extension to that by shortening the keyword filters for each language. Does not require online connection.
@@ -118,6 +122,7 @@ Pick your poison [Apache Public License](https://www.apache.org/licenses/) / [MI
 [brew]: ./Screenshots/brew.png "Sample brew result"
 [cocoa]: ./Screenshots/cocoa.png "Sample cocoa result"
 [composer]: ./Screenshots/composer.png "Sample composer result"
+[docker]: ./Screenshots/docker.png "Sample docker result"
 [gems]: ./Screenshots/gems.png "Sample gems result"
 [grunt]: ./Screenshots/grunt.png "Sample grunt result"
 [maven]: ./Screenshots/maven.png "Sample maven result"
