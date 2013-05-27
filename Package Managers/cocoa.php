@@ -72,8 +72,12 @@ if ($query) {
 	}
 }*/
 
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'cocoa', 'http://cocoadocs.org/?q='.$query, 'No Library found', 'No libraries were found that match your query', 'icon-cache/cocoa.png', 'yes' );
+
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'cocoa', 'http://cocoadocs.org/?q='.$query, 'No libraries were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/cocoa.png' );
+	}
+	$w->result( 'cocoa-www', 'http://cocoadocs.org/', 'Go to the website', 'http://cocoadocs.org', 'icon-cache/cocoa.png' );
 }
 
 echo $w->toxml();

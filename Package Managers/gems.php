@@ -33,8 +33,11 @@ foreach($pkgs as $item) {
 	}
 }
 
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'gems', 'http://rubygems.org/search?utf8=%E2%9C%93&query='.$query, 'No Gems found', 'No gems were found that match your query', 'icon-cache/gems.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'gems', 'http://rubygems.org/search?utf8=%E2%9C%93&query='.$query, 'No gems were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/gems.png' );
+	}
+	$w->result( 'gems-www', 'http://rubygems.org/', 'Go to the website', 'http://rubygems.org', 'icon-cache/gems.png' );
 }
 
 echo $w->toxml();

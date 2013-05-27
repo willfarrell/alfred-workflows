@@ -24,8 +24,11 @@ foreach($pkgs->response->docs as $item) {
 	$w->result( $title, $url, $title, $details, 'icon-cache/maven.png' );
 }
 
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'maven', 'http://mvnrepository.com/search.html?query='.$query, 'No Library found', 'No libraries were found that match your query', 'icon-cache/maven.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'maven', 'http://mvnrepository.com/search.html?query='.$query, 'No libraries were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/maven.png' );
+	}
+	$w->result( 'maven-www', 'http://mvnrepository.com/', 'Go to the website', 'http://mvnrepository.com', 'icon-cache/maven.png' );
 }
 
 echo $w->toxml();

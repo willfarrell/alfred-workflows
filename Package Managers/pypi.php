@@ -32,11 +32,15 @@ if (strlen($query) >= $min_query_length) {
 		if (!--$count) { break; }
 	}
 	
-	if ( count( $w->results() ) == 0 ) {
-		$w->result( 'pypi', 'https://pypi.python.org/pypi?%3Aaction=search&term='.$query.'&submit=search', 'No Packages found', 'No packages were found that match your query', 'icon-cache/pypi.png', 'yes' );
+	if ( count( $w->results() ) == 0) {
+		if($query) {
+			$w->result( 'pypi', 'https://pypi.python.org/pypi?%3Aaction=search&term='.$query.'&submit=search', 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/pypi.png' );
+		}
+		$w->result( 'pypi-www', 'http://rubygems.org/', 'Go to the website', 'http://rubygems.org', 'icon-cache/pypi.png' );
 	}
 } else {
-	$w->result( 'pypi', 'https://pypi.python.org/pypi?%3Aaction=search&term='.$query.'&submit=search', 'Query too short', 'Due to drawbacks in the API, the minimum query length is '.$min_query_length.'.', 'icon-cache/pypi.png', 'yes' );
+	$w->result( 'pypi', null, 'Query too short', 'Due to drawbacks in the API, the minimum query length is '.$min_query_length.'.', 'icon-cache/pypi.png', 'no' );
+	$w->result( 'pypi-www', 'http://rubygems.org/', 'Go to the website', 'http://rubygems.org', 'icon-cache/pypi.png' );
 }
 
 echo $w->toxml();

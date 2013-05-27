@@ -20,8 +20,11 @@ foreach($pkgs as $pkg) {
 	$w->result( $pkg->url, $url, $pkg->name, $url, 'icon-cache/bower.png' );
 }
 
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'bower', 'http://sindresorhus.com/bower-components/#!/search/'.$query, 'No Repository found', 'No components were found that match your query', 'icon-cache/bower.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'bower', 'http://sindresorhus.com/bower-components/#!/search/'.$query, 'No components were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/bower.png' );
+	}
+	$w->result( 'bower-www', 'http://bower.io/', 'Go to the website', 'http://bower.io', 'icon-cache/bower.png' );
 }
 
 echo $w->toxml();

@@ -44,8 +44,11 @@ foreach($pkgs as $plugin ) {
 	}
 }
 
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'grunt', 'http://gruntjs.com/plugins/'.$query, 'No Repository found', 'No plugins were found that match your query', 'icon-cache/grunt.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'grunt', 'http://gruntjs.com/plugins/'.$query, 'No plugins were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/grunt.png' );
+	}
+	$w->result( 'grunt-www', 'http://gruntjs.com/', 'Go to the website', 'http://gruntjs.com', 'icon-cache/grunt.png' );
 }
 
 echo $w->toxml();

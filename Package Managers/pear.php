@@ -28,9 +28,11 @@ foreach($pkgs as $item) {
 	$w->result( $title, 'http://pear.php.net/package/'.$title, $title, $details, 'icon-cache/pear.png' );
 }
 
-
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'pear', 'http://pear.php.net/search.php?q='.$query, 'No Repository found', 'No packages were found that match your query', 'icon-cache/pear.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'pear', 'http://pear.php.net/search.php?q='.$query, 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/pear.png' );
+	}
+	$w->result( 'pear-www', 'http://pear.php.net/', 'Go to the website', 'http://pear.php.net', 'icon-cache/pear.png' );
 }
 
 echo $w->toxml();

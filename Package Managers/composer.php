@@ -25,9 +25,11 @@ foreach($pkgs as $item) {
 	$w->result( $title, 'https://packagist.org/packages/'.$title, $title, $details, 'icon-cache/composer.png' );
 }
 
-
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'composer', 'https://packagist.org/search/?q='.$query, 'No Repository found', 'No packages were found that match your query', 'icon-cache/composer.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'composer', 'https://packagist.org/search/?q='.$query, 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/composer.png' );
+	}
+	$w->result( 'composer-www', 'http://getcomposer.org/', 'Go to the website', 'http://getcomposer.org', 'icon-cache/composer.png' );
 }
 
 echo $w->toxml();

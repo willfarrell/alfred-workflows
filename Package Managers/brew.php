@@ -32,9 +32,11 @@ foreach($pkgs as $pkg) {
 	$w->result( $title, 'http://braumeister.org/formula/'.$title, $title.' ~ '.$version, $details, 'icon-cache/brew.png' );
 }
 
-
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'homebrew', 'http://braumeister.org/search/'.$query, 'No Repository found', 'No packages were found that match your query', 'icon-cache/brew.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'brew', 'http://braumeister.org/search/'.$query, 'No plugins were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/brew.png' );
+	}
+	$w->result( 'brew-www', 'http://braumeister.org/', 'Go to the website', 'http://braumeister.org', 'icon-cache/brew.png' );
 }
 
 echo $w->toxml();

@@ -27,9 +27,11 @@ foreach($pkgs as $item) {
 	$w->result( $title, 'https://npmjs.org/package/'.$title, $title.' ~ '.$author, $details, 'icon-cache/npm.png' );
 }
 
-
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'npm', 'https://npmjs.org/search?q='.$query, 'No Repository found', 'No packages were found that match your query', 'icon-cache/npm.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'npm', 'https://npmjs.org/search?q='.$query, 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/npm.png' );
+	}
+	$w->result( 'npm-www', 'https://npmjs.org/', 'Go to the website', 'https://npmjs.org', 'icon-cache/npm.png' );
 }
 
 echo $w->toxml();

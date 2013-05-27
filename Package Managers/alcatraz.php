@@ -33,8 +33,11 @@ foreach($pkgs->packages as $package ) {
 	}
 }
 
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'alcatraz', 'http://mneorr.github.io/Alcatraz/'.$query, 'No Repository found', 'No packages were found that match your query', 'icon-cache/alcatraz.png', 'no' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'alcatraz', 'http://mneorr.github.io/Alcatraz/'.$query, 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/alcatraz.png' );
+	}
+	$w->result( 'alcatraz-www', 'http://mneorr.github.io/Alcatraz/', 'Go to the website', 'http://mneorr.github.io/Alcatraz', 'icon-cache/alcatraz.png' );
 }
 
 echo $w->toxml();

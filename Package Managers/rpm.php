@@ -28,8 +28,11 @@ foreach($pkgs as $item) {
 	$w->result( $title, $url, $title, $dist.' - '.$details, 'icon-cache/rpm.png' );
 }
 
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'rpm', 'http://rpmfind.net/linux/rpm2html/search.php?query='.$query.'&system=&arch=', 'No Repository found', 'No packages were found that match your query', 'icon-cache/rpm.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'rpm', 'http://rpmfind.net/linux/rpm2html/search.php?query='.$query.'&system=&arch=', 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/rpm.png' );
+	}
+	$w->result( 'rpm-www', 'http://rpmfind.net/', 'Go to the website', 'http://rpmfind.net', 'icon-cache/rpm.png' );
 }
 
 echo $w->toxml();

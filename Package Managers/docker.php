@@ -39,8 +39,11 @@ foreach($pkgs as $pkg) {
 	//if (!--$count) { break; }
 }
 
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'docker', 'https://index.docker.io/search?q='.$query, 'No Library found', 'No repositories were found that match your query', 'icon-cache/docker.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( 'docker', 'https://index.docker.io/search?q='.$query, 'No plugins were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/docker.png' );
+	}
+	$w->result( 'docker-www', 'http://www.docker.io/', 'Go to the website', 'http://www.docker.io', 'icon-cache/docker.png' );
 }
 
 echo $w->toxml();

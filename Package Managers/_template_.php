@@ -15,9 +15,9 @@ $w = new Workflows();
 $query = urlencode( "{query}" );
 
 // use one of
-$pkgs = $cache->get_db('grunt'); // entire db is provided in json, add to cache.php $dbs array
-$pkgs = $cache->get_query_json('bower', $query, 'https://bower.herokuapp.com/packages/search/'.$query); // has json API
-$pkgs = $cache->get_query_regex('brew', $query, 'http://braumeister.org/search/'.$query, '/<div class="formula (odd|even)">([\s\S]*?)<\/div>/i', 2); // requires parsing
+$pkgs = $cache->get_db('__pkgman_id__'); // entire db is provided in json, add to cache.php $dbs array
+$pkgs = $cache->get_query_json('__pkgman_id__', $query, 'https://bower.herokuapp.com/packages/search/'.$query); // has json API
+$pkgs = $cache->get_query_regex('__pkgman_id__', $query, 'http://braumeister.org/search/'.$query, '/<div class="formula (odd|even)">([\s\S]*?)<\/div>/i', 2); // requires parsing
 
 //array_shift($pkgs); // remove first item
 
@@ -47,13 +47,16 @@ foreach($pkgs as $pkg ) {
 			$title .= " by " . $pkg->author->name;
 		}
 		$url = str_replace("git://", "https://", $pkg->github);
-		$w->result( $pkg->name, $url, $title, $pkg->description, 'icon-cache/cocoa.png' );
+		$w->result( $pkg->name, $url, $title, $pkg->description, 'icon-cache/__pkgman_id__.png' );
 	}
 	//if (!--$count) { break; }
 }
 
-if ( count( $w->results() ) == 0 ) {
-	$w->result( 'cocoa', 'http://gruntjs.com/plugins/'.$query, 'No Library found', 'No libraries were found that match your query', 'icon-cache/cocoa.png', 'yes' );
+if ( count( $w->results() ) == 0) {
+	if($query) {
+		$w->result( '__pkgman_id__', 'http://gruntjs.com/plugins/'.$query, 'No plugins were found that matched '.$query, 'Click to see the results for yourself', 'icon-cache/__pkgman_id__.png', 'yes' );
+	}
+	$w->result( '__pkgman_id__-www', 'http://gruntjs.com/', 'Go to the website', 'http://gruntjs.com', 'icon-cache/__pkgman_id__.png' );
 }
 
 echo $w->toxml();
