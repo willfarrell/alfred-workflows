@@ -26,9 +26,10 @@ if (strlen($query) >= $min_query_length) {
 		$url = strip_tags($matches[1]);
 		
 		preg_match_all('/<td>([\s\S]*?)<\/td>/i', $item, $matches);
+		$downloads = strip_tags($matches[1][1]);
 		$details = strip_tags($matches[1][2]);
 		
-		$w->result( $title, 'https://pypi.python.org'.$url, $title, $details, 'icon-cache/pypi.png' );
+		$w->result( $title, 'https://crate.io'.$url, $title."    ".$downloads, $details, 'icon-cache/pypi.png' );
 		if (!--$count) { break; }
 	}
 	

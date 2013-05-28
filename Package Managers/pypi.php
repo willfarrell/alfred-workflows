@@ -3,7 +3,7 @@
 //header ("Content-Type:text/xml");
 //syslog(LOG_ERR, );
 
-$query = "lib";
+$query = "pip";
 // ****************
 $min_query_length = 3;
 //error_reporting(0);
@@ -14,20 +14,24 @@ $cache = new Cache();
 $w = new Workflows();
 //$query = urlencode( "{query}" );
 
-$pkgs = $cache->get_query_regex('pypi', $query, 'https://crate.io/?has_releases=on&q='.$query, '/<tr class="(.*?)">([\s\S]*?)<\/tr>/i', 2);
+$pkgs = $cache->get_query_regex('pypi', $query, 'https://crate.io/?has_releases=on&q='.$query, '/<div class="results">([\s\S]*?)<\/div>[\s]*<\/div>[\s]*<\/div>/i', 1);
 
-$count = 25;
 foreach($pkgs as $item) {
 	// name
 	preg_match('/<a href="(.*?)">(.*?)<\/a>/i', $item, $matches);
-	$title = str_replace("&nbsp;", " ", strip_tags($matches[0]));
-	$url = strip_tags($matches[1]);
+	$title = $matches[2];
+	$url = $matches[1];
 	
-	preg_match_all('/<td>([\s\S]*?)<\/td>/i', $item, $matches);
-	$details = strip_tags($matches[1][2]);
+	preg_match('/<em>(.*?)<\/em>/i', $item, $matches);
+	$author = $matches[1];
 	
-	$w->result( $title, 'https://pypi.python.org'.$url, $title, $details, 'icon-cache/pypi.png' );
-	if (!--$count) { break; }
+	preg_match('/<span class="count">(.*?)<\/span>/i', $item, $matches);
+	$downloads = $matches[1];
+	
+	preg_match('/<div class="span9 summary">([\s\S]*?)$/i', $item, $matches);
+	$details = $matches[1];
+	
+	$w->result( $title, 'https://crate.io'.$url, $title."    ".$author."    ".$downloads, $details, 'icon-cache/pypi.png' );
 }
 
 if ( count( $w->results() ) == 0) {
