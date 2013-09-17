@@ -74,6 +74,9 @@ The Python Package Index is very slow due to a lack on API and pagaination. A mi
 
 ![alt text][dash]
 
+### [man](https://github.com/isometry/alfredworkflows/tree/master/net.isometry.alfred.man) (-) [[Download](https://raw.github.com/isometry/alfredworkflows/master/man.alfredworkflow)]
+![alt text][man]
+
 ### [Dev Doctor](http://wemakeawesomesh.it/alfred-dev-doctor/) (1.5) [[Download](https://github.com/sydlawrence/alfred-dev-doctor)]
 Work just like the Dash Workflow, but requires a constant internet connection. A great alternative for those who don't own Dash.
 
@@ -82,6 +85,9 @@ Work just like the Dash Workflow, but requires a constant internet connection. A
 `st {query}`
 
 ![alt text][st]
+
+### [ssh](https://github.com/isometry/alfredworkflows/tree/master/net.isometry.alfred.ssh) (-) [[Download](https://raw.github.com/isometry/alfredworkflows/master/ssh.alfredworkflow)]
+![alt text][ssh]
 
 ### [Jenkins](https://github.com/jeroenseegers/alfred-jenkins-workflow) (1.0) [[Download](https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/Jenkins.alfredworkflow)]
 
@@ -104,7 +110,7 @@ Using the keywords `encode {query}` or `decode {query}`, will transform your que
 Color convertions: `c`, `hsl`, `rgb`, `#`
 
 ### VMWare Fusion (1.1) [[Download](http://tedwi.se/u/d4)]
-tedwi.se
+@ctwise
 
 ### VirtualBox (1.0) [[Download](https://www.dropbox.com/s/51pyuuj051pydn2/VirtualBox.alfredworkflow)]
 @MattD
@@ -128,12 +134,14 @@ Pick your poison [Apache Public License](https://www.apache.org/licenses/) / [MI
 [docker]: ./Screenshots/docker.png "Sample docker result"
 [gems]: ./Screenshots/gems.png "Sample gems result"
 [grunt]: ./Screenshots/grunt.png "Sample grunt result"
+[man]: https://raw.github.com/isometry/alfredworkflows/master/screenshots/man_example1.png "Sample man result"
 [maven]: ./Screenshots/maven.png "Sample maven result"
 [npm]: ./Screenshots/npm.png "Sample npm result"
 [pear]: ./Screenshots/pear.png "Sample pear result"
 [pypi]: ./Screenshots/pypi.png "Sample pypi result"
 [rpm]: ./Screenshots/rpm.png "Sample rpm result"
 [ruby]: ./Screenshots/ruby.png "Sample ruby result"
+[ssh]: https://raw.github.com/isometry/alfredworkflows/master/screenshots/ssh_user@local.png "Sample ssh result"
 
 [dash]: ./Screenshots/dash.png  "Sample dash result"
 
