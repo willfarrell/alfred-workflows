@@ -103,6 +103,9 @@ Using the keywords `encode {query}` or `decode {query}`, will transform your que
 ### [Colors](https://github.com/TylerEich/Alfred-Extras) (1.2) [[Download](https://github.com/TylerEich/Alfred-Extras/blob/master/Workflows/Colors.alfredworkflow)]
 Color convertions: `c`, `hsl`, `rgb`, `#`
 
+### VMWare Fusion (1.1) [[Download](http://tedwi.se/u/d4)]
+tedwi.se
+
 ### VirtualBox (1.0) [[Download](https://www.dropbox.com/s/51pyuuj051pydn2/VirtualBox.alfredworkflow)]
 @MattD
 
