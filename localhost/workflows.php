@@ -487,7 +487,7 @@ class Workflows {
 			'autocomplete' => $auto,
 			'type' => $type
 		);
-
+		
 		if ( is_null( $type ) ):
 			unset( $temp['type'] );
 		endif;
