@@ -10,6 +10,8 @@ Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-updat
 
 ## Workflows
 ### [Package Managers](https://github.com/willfarrell/alfred-pkgman-workflow) ([Download  v1.15](https://raw.github.com/willfarrell/alfred-pkgman-workflow/master/Package%20Managers.alfredworkflow))
+by [@willfarrell](https://github.com/willfarrell)
+
 Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `docker`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, `pypi`, `gems`, and `rpm`. All workflows require constant internet connection.
 
 All repos have caching enabled to speed up common queries. These caches are refreshed after 14 days and may take longer then expected to return results during update. You can force a cache refresh by running `pkgman cachedb` to redownload the databases (applies to `alcatraz`, `grunt`, `cocoa`). Alternatively you can run `pkgman cleardb` to remove all stored cache, but this isn't recommened.
@@ -17,6 +19,8 @@ All repos have caching enabled to speed up common queries. These caches are refr
 ![alt text][pkgman]
 
 ### [Dash](https://github.com/willfarrell/alfred-dash-workflow) ([Download  v1.5](https://raw.github.com/willfarrell/alfred-dash-workflow/master/Dash.alfredworkflow))
+by [@willfarrell](https://github.com/willfarrell)
+
 [Dash](http://kapeli.com/) comes with default Alfred 2 Workflow. This is an extension to that by shortening the keyword filters for each language. Does not require online connection.
 
 **Commands Included:** `dash {query}` (default), `html {query}`, `css {query}`, `js {query}`, `jquery {query}`, `angularjs {query}`, `bootstrap {query}`, `svg {query}`, `nodejs {query}`, `php {query}`, `redis {query}`, `mysql {query}`, `cpp {query}`, `backbone {query}`, `underscore {query}`, `sass {query}`, `compass {query}`, `wordpress {query}`, `drupal {query}`
@@ -27,26 +31,33 @@ All repos have caching enabled to speed up common queries. These caches are refr
 Work just like the Dash Workflow, but requires a constant internet connection. A great alternative for those who don't own Dash.
 
 ### [caniuse](https://github.com/willfarrell/alfred-caniuse-workflow) ([Download v1.0](https://raw.github.com/willfarrell/alfred-caniuse-workflow/master/caniuse.alfredworkflow))
+by [@willfarrell](https://github.com/willfarrell)
+
 Alfred App Workflow for caniuse.com
 
 ![alt text][caniuse]
 
 ### [StackOverflow](https://github.com/tzarskyz/Alfred-1) ([Download v1.0](https://github.com/tzarskyz/Alfred-1/blob/master/stackoverflow.alfredworkflow?raw=true))
+by [@tzarskyz](https://github.com/tzarskyz)
 
 `st {query}`
 
 ![alt text][st]
 
 ### [ssh](https://github.com/isometry/alfredworkflows/tree/master/net.isometry.alfred.ssh) ([Download v?](https://raw.github.com/isometry/alfredworkflows/master/ssh.alfredworkflow))
+by [@isometry](https://github.com/isometry)
+
 ![alt text][ssh]
 
 ### [Jenkins](https://github.com/jeroenseegers/alfred-jenkins-workflow) ([Download  v1.0](https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/Jenkins.alfredworkflow))
+by [@jeroenseegers](https://github.com/jeroenseegers)
 
 `jenkins {query}`
 
 ![alt text][jenkins]
 
 ### [Kill Process](https://github.com/nathangreenstein/alfred-process-killer) ([Download v1.2](https://github.com/nathangreenstein/alfred-process-killer/raw/master/Kill%20Process.alfredworkflow))
+by [@nathangreenstein](https://github.com/nathangreenstein)
 
 `kill {query}`
 
@@ -58,15 +69,18 @@ Using the keywords `encode {query}` or `decode {query}`, will transform your que
 ![alt text][encode]
 
 ### [Colors](https://github.com/TylerEich/Alfred-Extras) ([Download  v1.2](https://github.com/TylerEich/Alfred-Extras/blob/master/Workflows/Colors.alfredworkflow))
+by [@TylerEich](https://github.com/TylerEich)
+
 Color convertions: `c`, `hsl`, `rgb`, `#`
 
 ### [VMWare Fusion](https://github.com/ctwise/alfred-workflows#vmware-control) ([Download v1.1](http://tedwi.se/u/d4))
-@ctwise
+by [@ctwiseby](https://github.com/ctwise)
 
 ### VirtualBox ([Download  v1.0](https://www.dropbox.com/s/51pyuuj051pydn2/VirtualBox.alfredworkflow))
-@MattD
+by [@MattD](https://github.com/MattD)
 
 ### [Beanstalk](https://github.com/Leenug/Alfred-Beanstalk) ([Download  v1.0](https://github.com/Leenug/Alfred-Beanstalk/blob/master/Beanstalk.alfredworkflow?raw=true))
+by [@Leenug](https://github.com/Leenug)
 
 
 ### Github (0.0)
@@ -78,17 +92,10 @@ Pick your poison [Apache Public License](https://www.apache.org/licenses/) / [MI
 
 [caniuse]: https://raw.github.com/willfarrell/alfred-caniuse-workflow/master/screenshots/caniuse.png "Sample caniuse result"
 [pkgman]: ./screenshots/pkgman.png "Sample pkgman result"
-
 [ssh]: https://raw.github.com/isometry/alfredworkflows/master/screenshots/ssh_user@local.png "Sample ssh result"
-
 [dash]: ./screenshots/dash.png  "Sample dash result"
-
-
-
 [st]: ./screenshots/st.png "Sample StackOverflow result"
-
 [jenkins]: https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/alfred-jenkins-workflow-screenshot.png "Sample jenkins result"
-
 [kill]: https://github.com/nathangreenstein/alfred-process-killer/raw/master/screenshot1.png "Sample kill result"
 
 [encode]: ./screenshots/encode.png  "Sample encode result"
