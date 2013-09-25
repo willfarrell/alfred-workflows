@@ -141,6 +141,7 @@ Pick your poison [Apache Public License](https://www.apache.org/licenses/) / [MI
 [pypi]: ./Screenshots/pypi.png "Sample pypi result"
 [rpm]: ./Screenshots/rpm.png "Sample rpm result"
 [ruby]: ./Screenshots/ruby.png "Sample ruby result"
+
 [ssh]: https://raw.github.com/isometry/alfredworkflows/master/screenshots/ssh_user@local.png "Sample ssh result"
 
 [dash]: ./Screenshots/dash.png  "Sample dash result"
