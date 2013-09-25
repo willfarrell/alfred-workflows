@@ -17,7 +17,8 @@ $commands = array(
 	"start" => "sudo mysqld start",
 	"stop" => "sudo mysqld stop",
 	"restart" => "sudo mysqld restart",
-	"status" => "sudo mysqld status"
+	"status" => "sudo mysqld status",
+	"install" => "sudo mysqld status"
 );
 
 

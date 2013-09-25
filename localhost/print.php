@@ -15,6 +15,8 @@ foreach($commands as $key => $command) {
 		// echo status
 		$status = "GOOD";
 		$w->result( "$id-$key", "$command 2>&1", "Status: $status", "Ran `$command`", "icon-cache/$id.png" );
+	} else if ($key == 'install') {
+		$w->result( "$id-$key", $command, "Install $name", $command, "icon-cache/$id.png" );
 	}
 }
 
