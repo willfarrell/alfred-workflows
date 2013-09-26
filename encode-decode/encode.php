@@ -3,14 +3,12 @@
 //header ("Content-Type:text/xml");
 //syslog(LOG_ERR, "message to send to log");
 
-$query = "ap";
-
 // ****************
 
 require_once('workflows.php');
 
 $w = new Workflows();
-//$query = "{query}";
+if (!isset($query)) { $query = "{query}"; }
 
 $encodes = array();
 // url

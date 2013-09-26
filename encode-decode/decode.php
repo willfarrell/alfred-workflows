@@ -9,7 +9,7 @@ $query = "%5D & > \u0058"; // URL,
 require_once('workflows.php');
 
 $w = new Workflows();
-//$query = "{query}";
+if (!isset($query)) { $query = "{query}"; }
 
 function replace_unicode_escape_sequence($match) {
     return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
