@@ -9,7 +9,7 @@
 Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) using the keyword `oop`. If you're not comfortable with Alleyoop, **star this repo** to keep up to date on new versions and additional workflows.
 
 ## Workflows
-### [Package Managers](https://github.com/willfarrell/alfred-pkgman-workflow) ([Download  v1.15](https://raw.github.com/willfarrell/alfred-pkgman-workflow/master/Package%20Managers.alfredworkflow))
+### [Package Managers](https://github.com/willfarrell/alfred-pkgman-workflow) ([Download v1.15](https://raw.github.com/willfarrell/alfred-pkgman-workflow/master/Package%20Managers.alfredworkflow))
 by [@willfarrell](https://github.com/willfarrell)
 
 Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `docker`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, `pypi`, `gems`, and `rpm`. All workflows require constant internet connection.
@@ -18,7 +18,7 @@ All repos have caching enabled to speed up common queries. These caches are refr
 
 ![alt text][pkgman]
 
-### [Dash](https://github.com/willfarrell/alfred-dash-workflow) ([Download  v1.5](https://raw.github.com/willfarrell/alfred-dash-workflow/master/Dash.alfredworkflow))
+### [Dash](https://github.com/willfarrell/alfred-dash-workflow) ([Download v1.5](https://raw.github.com/willfarrell/alfred-dash-workflow/master/Dash.alfredworkflow))
 by [@willfarrell](https://github.com/willfarrell)
 
 [Dash](http://kapeli.com/) comes with default Alfred 2 Workflow. This is an extension to that by shortening the keyword filters for each language. Does not require online connection.
