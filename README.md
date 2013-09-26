@@ -63,7 +63,7 @@ by [@nathangreenstein](https://github.com/nathangreenstein)
 
 ![alt text][kill]
 
-### Encode/Decode ([Download  v1.2](https://raw.github.com/willfarrell/alfred-encode-decode-workflow/master/encode-decode.alfredworkflow))
+### [Encode / Decode](https://github.com/willfarrell/alfred-encode-decode-workflow) ([Download  v1.2](https://raw.github.com/willfarrell/alfred-encode-decode-workflow/master/encode-decode.alfredworkflow))
 Using the keywords `encode {query}` or `decode {query}`, will transform your query strings through *base64*, *html*, *url*, and *utf-8* encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
 ![alt text][encode]
