@@ -22,7 +22,7 @@ $utf8_encode = utf8_encode($query);
 if ($utf8_encode != $query) $encodes["UTF8 Encoded"] = $utf8_encode;
 
 // HTML
-$html_encode = htmlentities($query);
+$html_encode = htmlentities($query, ENT_QUOTES, 'UTF-8');
 if ($html_encode != $query) $encodes["HTML Encoded"] = $html_encode;
 //$dencodes["UTF-8 encoded"] = utf8_encode($query);
 
