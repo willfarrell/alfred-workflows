@@ -114,7 +114,7 @@ by [@Leenug](https://github.com/Leenug)
 [kill]: https://github.com/nathangreenstein/alfred-process-killer/raw/master/screenshot1.png "Sample kill result"
 [pkgman]: https://raw.github.com/willfarrell/alfred-pkgman-workflow/master/screenshots/npm.png "Sample result"
 [ssh]: https://raw.github.com/isometry/alfredworkflows/master/screenshots/ssh_user@local.png "Sample ssh result"
-[st]: ./screenshots/st.png "Sample StackOverflow result"
+[st]: https://github-camo.global.ssl.fastly.net/a5d8023b27bf15d503db5768220b6e779465ecd3/687474703a2f2f3768326f2e636f6d2f6173736574732f696d672f736f616c667265642f736f616c66726564322e706e67 "Sample StackOverflow result"
 
 
 
