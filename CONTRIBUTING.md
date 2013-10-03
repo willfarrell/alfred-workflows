@@ -5,14 +5,6 @@ First off, thanks for you interest in contributing. Everyone who uses this repos
 ### Suggest a Workflow
 Found or developed a workflow you think other developers will like? Provide a link to it's github page or Submit a Pull Request with a modified README.md.
 
-### Package Managers
-If you're requesting a new repository be included, please include links to:
-
-1. Search page
-2. query url `domain.com/search?q={query}` (if applicable)
-3. json file (if applicable)
-4. logo image
-
 ## Pull Requests
 Good pull requests - patches, improvements, new features - are a fantastic help.
 They should remain focused in scope and avoid containing unrelated commits. If
@@ -22,19 +14,6 @@ to any part of the project, please open an issue to discuss it first.
 Make sure to adhere to the coding conventions used throughout a project
 (indentation, accurate comments, etc.). Please update any documentation that is
 relevant to the change you're making.
-
-### For All Workflows
-If you add a new keyword workflow please make sure you update and include the following.
-
-- Increase the version number in `update.json` inside `WORKFLOW_NAME.alfredworkflow`.
-- Increase the version number in `WORKFLOW_NAME.json`.
-- Include a large icon in the `WORKFLOW_NAME/icon-src/` folder that has square dimensions.
-- Include a cached icon in the `WORKFLOW_NAME/icon-cache/` folder that 256x256 pixels. Alfred creates these when you insert an image into a workflow. You can get this from inside the `.alfredworkflow`
-- Add the new keyword to README.md.
-- Exported version of your update.
-
-### Package Managers
-- Add a screen shot. Use ⌘ (command) + ⇧ (shift) + 4, press ␣ (space), then click on the Alfred window to create a clean screen shot.
 
 ## Pull Request Process
 Please follow this process; it's the best way to get your work included in the
