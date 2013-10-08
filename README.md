@@ -11,6 +11,7 @@ Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-updat
 ## Workflows
 ### [Github](https://github.com/willfarrell/alfred-github-workflow) ([Download](https://raw.github.com/willfarrell/alfred-blank-workflow/master/Blank%20Workflow.alfredworkflow))
 by [@willfarrell](https://github.com/willfarrell)
+
 Searching Github for gists, repos, user repos, or repos starred by a user. 5000 requests per hour supported.
 ![alt text][github]
 
@@ -80,11 +81,15 @@ by [@nathangreenstein](https://github.com/nathangreenstein)
 ![alt text][kill]
 
 ### [FontAwesome](https://github.com/ruedap/alfred2-font-awesome-workflow) ([Download](https://raw.github.com/ruedap/alfred2-font-awesome-workflow/master/Font%20Awesome.alfredworkflow))
+by [@ruedap](https://github.com/ruedap)
+
 You can incremental search for Font Awesome Icon Fonts and paste it to front most app.
 
 ![alt text][fontawesome]
 
 ### [Encode / Decode](https://github.com/willfarrell/alfred-encode-decode-workflow) ([Download](https://raw.github.com/willfarrell/alfred-encode-decode-workflow/master/encode-decode.alfredworkflow))
+by [@willfarrell](https://github.com/willfarrell)
+
 Using the keywords `encode {query}` or `decode {query}`, will transform your query strings through *base64*, *html*, *url*, and *utf-8* encode/decode. Pressing enter will copy the encoded/decoded string to the clipboard.
 
 ![alt text][encode]
