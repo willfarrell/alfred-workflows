@@ -9,7 +9,7 @@
 Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) using the keyword `oop`. If you're not comfortable with Alleyoop, **star this repo** to keep up to date on new versions and additional workflows.
 
 ## Workflows
-### [Github](https://github.com/willfarrell/alfred-github-workflow) ([Download](https://raw.github.com/willfarrell/alfred-blank-workflow/master/Blank%20Workflow.alfredworkflow))
+### [Github](https://github.com/willfarrell/alfred-github-workflow) ([Download](https://raw.github.com/willfarrell/alfred-github-workflow/master/Github.alfredworkflow))
 by [@willfarrell](https://github.com/willfarrell)
 
 Searching Github for gists, repos, user repos, or repos starred by a user. 5000 requests per hour supported.
