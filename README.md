@@ -64,8 +64,23 @@ Searching Github for gists, repos, user repos, or repos starred by a user. 5000 
 ### [Hash](https://github.com/willfarrell/alfred-hash-workflow) ([Download](https://raw.github.com/willfarrell/alfred-hash-workflow/master/Hash.alfredworkflow))
 by [@willfarrell](https://github.com/willfarrell)
 
-### [IP Address Info]() ([Download]())
-by [@willfarrell](https://github.com/willfarrell)
+![Hashing](https://github.com/willfarrell/alfred-hash-workflow/raw/master/screenshots/hash.png)
+
+### [iOS Simulator](http://www.alfredforum.com/topic/2126-launch-ios-simulator/) (1.0) ~ [Download](http://zno.io/RcI1)
+
+Launch iOS Simulator without launching Xcode ~ *by [@maloninc](http://www.alfredforum.com/topic/2126-launch-ios-simulator/).*
+
+> Triggers: `ios`.
+
+![iOS Simulator Workflow](https://cloud.githubusercontent.com/assets/398893/3528924/19f2603a-0794-11e4-8dcd-4478af1f24af.png)
+
+### [IP Address](http://dferg.us/ip-address-workflow/) (1.2) ~ [Download](http://zno.io/RcAi)
+
+Shows your internal and external IP address ~ *by [@dferg](http://dferg.us/ip-address-workflow/).*
+
+> Triggers: `ip`.
+
+![IP Address Workflow](https://cloud.githubusercontent.com/assets/398893/3528930/2a1f6d90-0794-11e4-95d9-494b27070e2a.png)
 
 ### [Kill Process](https://github.com/nathangreenstein/alfred-process-killer) ([Download](https://github.com/nathangreenstein/alfred-process-killer/raw/master/Kill%20Process.alfredworkflow))
 by [@nathangreenstein](https://github.com/nathangreenstein)
@@ -81,12 +96,6 @@ by [@jeroenseegers](https://github.com/jeroenseegers)
 
 ![alt text][jenkins]
 
-### [Manage Alfred Extension]() ([Download]())
-by [](https://github.com/willfarrell)
-
-### [Mount Network Share]() ([Download]())
-by [](https://github.com/willfarrell)
-
 ### [ssh](https://github.com/isometry/alfredworkflows/tree/master/net.isometry.alfred.ssh) ([Download](https://raw.github.com/isometry/alfredworkflows/master/ssh.alfredworkflow))
 by [@isometry](https://github.com/isometry)
 
@@ -99,10 +108,7 @@ by [@tzarskyz](https://github.com/tzarskyz)
 
 ![alt text][st]
 
-### [Tower]() ([Download]())
-by [@willfarrell](https://github.com/willfarrell)
-
-### [Transmit](https://github.com/bigluck/alfred2-transmit) ([Download](https://raw.github.com/bigluck/alfred2-transmit/master/Transmit Favorites.alfredworkflow))
+### [Transmit](https://github.com/bigluck/alfred2-transmit) ([Download](https://raw.github.com/bigluck/alfred2-transmit/master/Transmit%20Favorites.alfredworkflow))
 by [Jefferson Sher](https://github.com/bigluck)
 
 ![alt text][transmit]
@@ -131,7 +137,7 @@ by [@Leenug](https://github.com/Leenug)
 [pkgman]: https://raw.github.com/willfarrell/alfred-pkgman-workflow/master/screenshots/npm.png "Sample result"
 [ssh]: https://raw.github.com/isometry/alfredworkflows/master/screenshots/ssh_user@local.png "Sample ssh result"
 [st]: https://github-camo.global.ssl.fastly.net/a5d8023b27bf15d503db5768220b6e779465ecd3/687474703a2f2f3768326f2e636f6d2f6173736574732f696d672f736f616c667265642f736f616c66726564322e706e67 "Sample StackOverflow result"
-[trasmit] https://camo.githubusercontent.com/ad3d2e816826fec2dd5880ceec5d761773a3f858/687474703a2f2f6934392e74696e797069632e636f6d2f73316a6430382e6a7067
+[transmit]: https://camo.githubusercontent.com/ad3d2e816826fec2dd5880ceec5d761773a3f858/687474703a2f2f6934392e74696e797069632e636f6d2f73316a6430382e6a7067
 
 
 
