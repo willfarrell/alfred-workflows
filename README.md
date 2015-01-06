@@ -6,7 +6,7 @@
 3. Review the workflow to add custom Hotkeys
 
 ## Updating
-Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) using the keyword `oop` o r [Monkey Patch](https://github.com/BenziAhamed/monkeypatch-alfred) using the keyword `mp`. If you're not comfortable with Alleyoop, **star this repo** to keep up to date on new versions and additional workflows.
+Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) using the keyword `oop` or [Monkey Patch](https://github.com/BenziAhamed/monkeypatch-alfred) using the keyword `mp`. If you're not comfortable with Alleyoop, **star this repo** to keep up to date on new versions and additional workflows.
 
 ## Workflows
 ### [Github](https://github.com/willfarrell/alfred-github-workflow) ([Download](https://raw.github.com/willfarrell/alfred-github-workflow/master/Github.alfredworkflow))
@@ -20,7 +20,7 @@ by [@willfarrell](https://github.com/willfarrell)
 
 Quick package/plugin/component (repo) lookup of for your favourite package managers. Currently supports `Alcatraz`, `bower`, `CocoaDocs/CocoaPods`, `Composer`, `docker`, `Grunt`, `Homebrew`, `Maven`, `npm`, `pear`, `pypi`, `gems`, and `rpm`. All workflows require constant internet connection.
 
-All repos have caching enabled to speed up common queries. These caches are refreshed after 14 days and may take longer then expected to return results during update. You can force a cache refresh by running `pkgman cachedb` to redownload the databases (applies to `alcatraz`, `grunt`, `cocoa`). Alternatively you can run `pkgman cleardb` to remove all stored cache, but this isn't recommened.
+All repos have caching enabled to speed up common queries. These caches are refreshed after 14 days and may take longer then expected to return results during update. You can force a cache refresh by running `pkgman cachedb` to redownload the databases (applies to `alcatraz`, `grunt`, `cocoa`). Alternatively you can run `pkgman cleardb` to remove all stored cache, but this isn't recommended.
 
 ![alt text][pkgman]
 
@@ -80,7 +80,7 @@ by [@nathangreenstein](https://github.com/nathangreenstein)
 
 ![alt text][kill]
 
-### [FontAwesome](https://github.com/ruedap/alfred2-font-awesome-workflow) ([Download](https://raw.github.com/ruedap/alfred2-font-awesome-workflow/master/Font%20Awesome.alfredworkflow))
+### [FontAwesome](https://github.com/ruedap/alfred2-font-awesome-workflow) ([Download](https://github.com/ruedap/alfred2-font-awesome-workflow/raw/master/Font-Awesome.alfredworkflow))
 by [@ruedap](https://github.com/ruedap)
 
 You can incremental search for Font Awesome Icon Fonts and paste it to front most app.
