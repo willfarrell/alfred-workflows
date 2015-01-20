@@ -6,11 +6,7 @@
 3. Review the workflow to add custom Hotkeys
 
 ## Updating
-<<<<<<< HEAD
-Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) using the keyword `oop` or [Monkey Patch](https://github.com/BenziAhamed/monkeypatch-alfred) using the keyword `mp`. If you're not comfortable with Alleyoop, **star this repo** to keep up to date on new versions and additional workflows.
-=======
 Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) using the keyword `oop` or [Monkey Patch](https://github.com/BenziAhamed/monkeypatch-alfred) using the keyword `mp`. If you're not comfortable with an auto updater, **star this repo** to keep up to date on new versions and additional workflows.
->>>>>>> e87a787eb1bcf7c0db570c6fe790466fc1e55c09
 
 ## Workflows
 
@@ -93,10 +89,9 @@ by [@nathangreenstein](https://github.com/nathangreenstein)
 
 ![alt text][kill]
 
-<<<<<<< HEAD
 ### [FontAwesome](https://github.com/ruedap/alfred2-font-awesome-workflow) ([Download](https://github.com/ruedap/alfred2-font-awesome-workflow/raw/master/Font-Awesome.alfredworkflow))
 by [@ruedap](https://github.com/ruedap)
-=======
+
 ### [Jenkins](https://github.com/jeroenseegers/alfred-jenkins-workflow) ([Download](https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/Jenkins.alfredworkflow))
 by [@jeroenseegers](https://github.com/jeroenseegers)
 >>>>>>> e87a787eb1bcf7c0db570c6fe790466fc1e55c09
