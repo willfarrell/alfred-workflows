@@ -89,9 +89,6 @@ by [@nathangreenstein](https://github.com/nathangreenstein)
 
 ![alt text][kill]
 
-### [FontAwesome](https://github.com/ruedap/alfred2-font-awesome-workflow) ([Download](https://github.com/ruedap/alfred2-font-awesome-workflow/raw/master/Font-Awesome.alfredworkflow))
-by [@ruedap](https://github.com/ruedap)
-
 ### [Jenkins](https://github.com/jeroenseegers/alfred-jenkins-workflow) ([Download](https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/Jenkins.alfredworkflow))
 by [@jeroenseegers](https://github.com/jeroenseegers)
 >>>>>>> e87a787eb1bcf7c0db570c6fe790466fc1e55c09
