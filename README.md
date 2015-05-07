@@ -48,7 +48,7 @@ Using the keywords `encode {query}` or `decode {query}`, will transform your que
 
 ![alt text][encode]
 
-### [FontAwesome](https://github.com/ruedap/alfred2-font-awesome-workflow) ([Download](https://raw.github.com/ruedap/alfred2-font-awesome-workflow/master/Font%20Awesome.alfredworkflow))
+### [Font Awesome](https://github.com/ruedap/alfred2-font-awesome-workflow) ([Download](https://raw.github.com/ruedap/alfred2-font-awesome-workflow/master/Font-Awesome.alfredworkflow))
 by [@ruedap](https://github.com/ruedap)
 
 You can incremental search for Font Awesome Icon Fonts and paste it to front most app.
@@ -133,7 +133,7 @@ by [@Leenug](https://github.com/Leenug)
 [cdn]: https://raw.github.com/willfarrell/alfred-cdn-workflow/master/screenshots/cloudflare.png "Sample result"
 [dash]: https://raw.github.com/willfarrell/alfred-dash-workflow/master/screenshots/dash.png  "Sample result"
 [encode]: https://raw.github.com/willfarrell/alfred-encode-decode-workflow/master/screenshots/encode.png  "Sample result"
-[fontawesome]: http://gifzo.net/ZqCN4wKUcq.gif "Sample result"
+[fontawesome]: https://raw.githubusercontent.com/ruedap/alfred2-font-awesome-workflow/master/screenshots/screencast.gif  "Sample result"
 [github]: https://raw.github.com/willfarrell/alfred-github-workflow/master/screenshots/my.png "Sample result"
 [jenkins]: https://github.com/jeroenseegers/alfred-jenkins-workflow/raw/master/alfred-jenkins-workflow-screenshot.png "Sample jenkins result"
 [localhost]: https://raw.github.com/willfarrell/alfred-localhost-workflow/master/screenshots/apache.png "Sample result"
