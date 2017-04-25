@@ -5,9 +5,6 @@
 2. Double-click to import into Alfred 2
 3. Review the workflow to add custom Hotkeys
 
-## Updating
-Run the [Alleyoop Workflow](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) using the keyword `oop` or [Monkey Patch](https://github.com/BenziAhamed/monkeypatch-alfred) using the keyword `mp`. If you're not comfortable with an auto updater, **star this repo** to keep up to date on new versions and additional workflows.
-
 ## Workflows
 
 ### [Package Managers](https://github.com/willfarrell/alfred-pkgman-workflow) ([Download](https://raw.github.com/willfarrell/alfred-pkgman-workflow/master/Package%20Managers.alfredworkflow))
