@@ -118,10 +118,17 @@ by [@MattD](https://github.com/MattD)
 ### [VMWare Fusion](https://github.com/ctwise/alfred-workflows#vmware-control) ([Download](http://tedwi.se/u/d4))
 by [@ctwiseby](https://github.com/ctwise)
 
-
-
 ### [Beanstalk](https://github.com/Leenug/Alfred-Beanstalk) ([Download](https://github.com/Leenug/Alfred-Beanstalk/blob/master/Beanstalk.alfredworkflow?raw=true))
 by [@Leenug](https://github.com/Leenug)
+
+### [Say-workflow](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/say-workflow) ([Download](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/say_command.alfredworkflow?raw=true))
+by [@BaksiLi](https://github.com/BaksiLi)
+
+A workflow that simply reads out something (multilingually).   
+`say {query}` to use the default voice (English);   
+`say {lang-code} {text}` to specify the voice, e.g. `jp`, `fr` (anagrams supported). Users can also customize the voice, see [Usage](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/say-workflow#usage).
+
+![alt text][say-workflow]
 
 [caniuse]: https://raw.github.com/willfarrell/alfred-caniuse-workflow/master/screenshots/caniuse-browser.png "Sample result"
 [cdn]: https://raw.github.com/willfarrell/alfred-cdn-workflow/master/screenshots/cloudflare.png "Sample result"
@@ -136,7 +143,7 @@ by [@Leenug](https://github.com/Leenug)
 [ssh]: https://raw.github.com/isometry/alfredworkflows/master/screenshots/ssh_user@local.png "Sample ssh result"
 [st]: https://github-camo.global.ssl.fastly.net/a5d8023b27bf15d503db5768220b6e779465ecd3/687474703a2f2f3768326f2e636f6d2f6173736574732f696d672f736f616c667265642f736f616c66726564322e706e67 "Sample StackOverflow result"
 [transmit]: https://camo.githubusercontent.com/ad3d2e816826fec2dd5880ceec5d761773a3f858/687474703a2f2f6934392e74696e797069632e636f6d2f73316a6430382e6a7067
-
+[say-workflow]: https://github.com/BaksiLi/AlfredWorkflows/raw/master/Index/say-workflow/pics/4.png "Sample usage in English"
 
 
 
