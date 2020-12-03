@@ -142,7 +142,7 @@ by [@fatih-yavuz](https://github.com/fatih-yavuz)
 
 Perform string operations to clipboard content
 
-[string-operations]: https://image.prntscr.com/image/BpzdSC8TT2mgctxmpH-pwA.png "Sample result"
+![alt text][string-operations]
 
 [caniuse]: https://raw.github.com/willfarrell/alfred-caniuse-workflow/master/screenshots/caniuse-browser.png "Sample result"
 [cdn]: https://raw.github.com/willfarrell/alfred-cdn-workflow/master/screenshots/cloudflare.png "Sample result"
