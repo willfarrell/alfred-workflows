@@ -130,6 +130,18 @@ A workflow that simply reads out something (multilingually).
 
 ![alt text][say-workflow]
 
+### [Hue Timer](https://github.com/fatih-yavuz/alfred-timer-workflow) ([Download](https://github.com/packal/repository/raw/master/io.github.fatih-yavuz.alfred-timer-workflow/timer.alfredworkflow))
+by [@fatih-yavuz](https://github.com/fatih-yavuz)
+
+Alfred workflow to start a timer, which blinks when the time is up.
+
+![alt text][hue-timer]
+
+### [String Operations](https://github.com/fatih-yavuz/alfred-string-operations) ([Download](https://github.com/packal/repository/raw/master/io.github.fatih-yavuz.alfred-string-operations/string_operations.alfredworkflow))
+by [@fatih-yavuz](https://github.com/fatih-yavuz)
+
+Perform string operations to clipboard content
+
 [caniuse]: https://raw.github.com/willfarrell/alfred-caniuse-workflow/master/screenshots/caniuse-browser.png "Sample result"
 [cdn]: https://raw.github.com/willfarrell/alfred-cdn-workflow/master/screenshots/cloudflare.png "Sample result"
 [dash]: https://raw.github.com/willfarrell/alfred-dash-workflow/master/screenshots/dash.png  "Sample result"
@@ -144,6 +156,8 @@ A workflow that simply reads out something (multilingually).
 [st]: https://github-camo.global.ssl.fastly.net/a5d8023b27bf15d503db5768220b6e779465ecd3/687474703a2f2f3768326f2e636f6d2f6173736574732f696d672f736f616c667265642f736f616c66726564322e706e67 "Sample StackOverflow result"
 [transmit]: https://camo.githubusercontent.com/ad3d2e816826fec2dd5880ceec5d761773a3f858/687474703a2f2f6934392e74696e797069632e636f6d2f73316a6430382e6a7067
 [say-workflow]: https://github.com/BaksiLi/AlfredWorkflows/raw/master/Index/say-workflow/pics/4.png "Sample usage in English"
+[hue-timer]: https://raw.githubusercontent.com/siyahmadde/timer-workflow/master/preview.png "Sample result"
+[string-operations]: https://image.prntscr.com/image/BpzdSC8TT2mgctxmpH-pwA.png "Sample result"
 
 
 
