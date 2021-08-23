@@ -35,9 +35,6 @@ by [@TylerEich](https://github.com/TylerEich)
 
 Color convertions: `c`, `hsl`, `rgb`, `#`
 
-### [Command-C](http://www.geekswithjuniors.com/note/launch-ios-actions-from-the-mac-using-alfred-and-command-c.html) ([Download](http://www.geekswithjuniors.com/storage/urlschemes/Command-C%20on%20iOS.alfredworkflow))
-by [David Gougelet and Paul Wirth]()
-
 ### [Encode / Decode](https://github.com/willfarrell/alfred-encode-decode-workflow) ([Download](https://raw.github.com/willfarrell/alfred-encode-decode-workflow/master/encode-decode.alfredworkflow))
 by [@willfarrell](https://github.com/willfarrell)
 
